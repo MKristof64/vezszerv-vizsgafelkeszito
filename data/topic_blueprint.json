@@ -1,0 +1,692 @@
+[
+  {
+    "id": 1,
+    "slug": "szervezet-vezetes-hatekonysag-eredmenyesseg",
+    "module": "Alapok",
+    "title": "Szervezet, vezetés, hatékonyság és eredményesség",
+    "overview": "A kurzus alapfogalmai azt írják le, hogy mi tekinthető szervezetnek, miben áll a vezetés lényege, és hogyan viszonyul egymáshoz a hatékonyság és az eredményesség. Ezek a fogalmak később minden stratégiai, szervezeti és magatartási témánál visszatérnek, ezért nem definíciós apróságok, hanem az egész tárgy értelmezési keretei.",
+    "keyPoints": [
+      "A szervezet emberek és tárgyi elemek rendszere, amely tartós célokat követ, formális struktúrával rendelkezik, és belső szabályok mentén működik.",
+      "A vezetés olyan átfogó tevékenység, amelynek során a vezető másokkal együtt, illetve mások által valósítja meg a szervezeti célokat.",
+      "A hatékonyság azt mutatja meg, hogy a szervezet mennyi erőforrásból éri el a célját, ezért erőforrás-felhasználási nézőpontú fogalom.",
+      "Az eredményesség azt fejezi ki, hogy a szervezet mennyire érte el a kívánt célt, tehát célmegvalósítási nézőpontból értékel.",
+      "A jó vezetés nem választja szét mesterségesen a két szempontot, hanem egyszerre törekszik helyes célokra és ésszerű erőforrás-felhasználásra."
+    ],
+    "keywords": [
+      "szervezet",
+      "vezetés",
+      "hatékonyság",
+      "eredményesség",
+      "tartós cél",
+      "formális struktúra"
+    ],
+    "relatedTopicIds": [2, 8, 30]
+  },
+  {
+    "id": 2,
+    "slug": "menedzsment-vs-leadership-vezetesi-funkciok",
+    "module": "Alapok",
+    "title": "Menedzsment vs leadership, vezetési funkciók",
+    "overview": "A menedzsment és a leadership sokszor átfedő, de nem teljesen azonos nézőpontból írják le a vezetői munkát. A tárgy gyakorlati váza a vezetési funkciók rendszere, amely segít megérteni, hogy a vezető mit csinál különböző helyzetekben és szervezeti szinteken.",
+    "keyPoints": [
+      "A menedzsment inkább a tervezéshez, szervezéshez, koordinációhoz és stabil működéshez kapcsolódik, míg a leadership erősebben fókuszál az irányadásra és az emberek mozgósítására.",
+      "A tárgy négy vezetési funkcióval dolgozik: célkitűzés és stratégiaalkotás, szervezés, személyes vezetés, valamint kontroll.",
+      "A funkciók nem elszigetelt feladatok, hanem egymásra épülő vezetői nézőpontok, amelyek ugyanazon szervezeti célok szolgálatában állnak.",
+      "A különböző vezetési szinteken más arányban jelennek meg a funkciók: felül több stratégia, lejjebb több szervezési és végrehajtási fókusz jellemző.",
+      "A jó vezető egyszerre képes rendszert építeni és személyes befolyást gyakorolni, ezért a menedzseri és leaderi oldal kiegészíti egymást."
+    ],
+    "keywords": [
+      "menedzsment",
+      "leadership",
+      "vezetési funkciók",
+      "célkitűzés",
+      "szervezés",
+      "kontroll"
+    ],
+    "relatedTopicIds": [1, 17, 18, 30]
+  },
+  {
+    "id": 3,
+    "slug": "strategiai-premisszak-es-platform",
+    "module": "Stratégia",
+    "title": "Stratégiai premisszák és stratégiai platform",
+    "overview": "A stratégiaalkotás nem üres lappal indul, hanem feltételezésekből és szereplői megállapodásokból. A premisszák és a stratégiai platform azt biztosítják, hogy a későbbi célok és döntések valós környezetképre és elfogadott irányra épüljenek.",
+    "keyPoints": [
+      "A stratégiai premisszák a külső környezetre és a szervezeti adottságokra vonatkozó előzetes feltevések, amelyek meghatározzák, milyen keretek között gondolkodik a vezetés.",
+      "Ezek a feltevések nem örökérvényűek, hanem folyamatos felülvizsgálatot igényelnek, mert a környezet és a piac is változhat.",
+      "A stratégiai platform vagy domináns koalíció azt jelenti, hogy a fő szereplők nagyjából közös alapra helyezik a szervezet jövőképét és fő céljait.",
+      "Ha a stratégiai platform hiányzik, akkor a stratégia papíron létrejöhet, de a végrehajtásnál a belső érdekellentétek gyorsan szétszedik.",
+      "A premisszák és a platform együtt adják azt az induló értelmezési keretet, amelyből a misszió, a vízió és a stratégiai célok levezethetők."
+    ],
+    "keywords": [
+      "premissza",
+      "stratégiai platform",
+      "domináns koalíció",
+      "feltételezések",
+      "környezet",
+      "érdekegyeztetés"
+    ],
+    "relatedTopicIds": [4, 7, 8]
+  },
+  {
+    "id": 4,
+    "slug": "misszio-vizio-es-strategiai-celok",
+    "module": "Stratégia",
+    "title": "Misszió, vízió és stratégiai célok",
+    "overview": "A misszió, a vízió és a stratégiai célok a stratégiaalkotás három kulcseleme. Együtt írják le, hogy mi a szervezet rendeltetése, milyen jövőképet akar elérni, és ezt milyen konkrét célok mentén kívánja megvalósítani.",
+    "keyPoints": [
+      "A misszió a szervezet rendeltetését, értékeit, társadalmi és piaci szerepét fogalmazza meg, ezért identitásképző funkciója van.",
+      "A vízió a kívánt jövőbeli állapotot mutatja meg, vagyis azt a képet, amely felé a szervezet hosszabb távon tart.",
+      "A stratégiai céloknak konkrétnak, mérhetőnek és időhöz kötöttnek kell lenniük, különben nem alkalmasak irányításra és kontrollra.",
+      "A három elem akkor erős, ha egymással összhangban áll: a vízió ne mondjon ellent a missziónak, a célok pedig ne legyenek leválasztva a jövőképről.",
+      "A jól megfogalmazott stratégiai célok később a teljesítménymérés és a kontroll rendszerének is alapot adnak."
+    ],
+    "keywords": [
+      "misszió",
+      "vízió",
+      "stratégiai cél",
+      "mérhetőség",
+      "időtáv",
+      "irányadás"
+    ],
+    "relatedTopicIds": [3, 5, 6, 7]
+  },
+  {
+    "id": 5,
+    "slug": "strategiak-szintjei",
+    "module": "Stratégia",
+    "title": "Stratégiák szintjei",
+    "overview": "A szervezeti stratégia több szinten értelmezhető, és a különböző szintek más kérdésekre adnak választ. A kurzus három klasszikus szintet különít el: az alapstratégiát, a versenystratégiát és a funkcionális stratégiákat.",
+    "keyPoints": [
+      "Az alapstratégia az egész vállalatra vonatkozó fejlődési, növekedési és jövedelmezőségi kérdéseket rendezi.",
+      "A versenystratégia arra fókuszál, hogyan szerez és tart fenn a szervezet előnyt az adott iparági versenyben.",
+      "A funkcionális stratégiák azt írják le, hogy az egyes részterületek, például a HR vagy a pénzügy, hogyan támogatják a felsőbb szintű célokat.",
+      "A három szint között függőleges összhangnak kell lennie, mert a jó versenystratégia is elbukhat, ha a funkcionális háttér nem támogatja.",
+      "A stratégiai szintek megkülönböztetése segít elválasztani a nagyvállalati iránykérdéseket az operatív támogatási feladatoktól."
+    ],
+    "keywords": [
+      "alapstratégia",
+      "versenystratégia",
+      "funkcionális stratégia",
+      "összhang",
+      "értékteremtés",
+      "vállalati szint"
+    ],
+    "relatedTopicIds": [4, 6, 8]
+  },
+  {
+    "id": 6,
+    "slug": "uzleti-terv-operativ-terv-es-tervezesi-logikak",
+    "module": "Stratégia",
+    "title": "Üzleti terv, operatív terv és tervezési logikák",
+    "overview": "A stratégia csak akkor válik irányíthatóvá, ha lefordítják tervekre, felelősökre és számszerű elvárásokra. Az üzleti és az operatív terv ezt a híd-szerepet tölti be, a tervezési logikák pedig azt mutatják meg, honnan indul a tervépítés a hierarchiában.",
+    "keyPoints": [
+      "Az üzleti terv több évre szóló cselekvési keret, amely akciókat, erőforrásigényeket és finanszírozási elképzeléseket is tartalmaz.",
+      "Az operatív terv rövidebb távú, tipikusan éves, számszerűsített terv, amelyhez felelősök és konkrét elvárások kapcsolhatók.",
+      "A felülről lefelé tervezés centralizált, gyorsabb és egységesebb, de gyengébb lehet a helyi realitásérzéke.",
+      "Az alulról felfelé tervezés decentralizáltabb, jobban épít a helyi tudásra, viszont nehezebb összehangolni.",
+      "Az ellenáramú tervezés a két logika ötvözete: központi keretek mellett az alsóbb szintek résztervekkel töltik fel a rendszert."
+    ],
+    "keywords": [
+      "üzleti terv",
+      "operatív terv",
+      "felülről lefelé",
+      "alulról felfelé",
+      "ellenáramú tervezés",
+      "felelősök"
+    ],
+    "relatedTopicIds": [4, 5, 30]
+  },
+  {
+    "id": 7,
+    "slug": "kulso-kornyezet-es-iparagelemzes",
+    "module": "Stratégia",
+    "title": "Külső környezet- és iparágelemzés",
+    "overview": "A stratégiai gondolkodás kiindulópontja annak megértése, hogy a szervezet milyen iparági és tágabb környezeti feltételek között működik. A jó környezetelemzés nem puszta lista, hanem annak feltárása, hogy mely szereplők, trendek és feszültségek hatnak a cég mozgásterére.",
+    "keyPoints": [
+      "Az iparágelemzés feltárja a fő szereplőket, az erőviszonyokat, a jellemző versenydilemmákat és a belépési korlátokat.",
+      "A tágabb környezet vizsgálatakor gazdasági, technológiai, kulturális és intézményi hatásokat is figyelembe kell venni.",
+      "A missziónak és a stratégiai céloknak nem a belső vágylistából, hanem a környezeti realitásokból kell kiindulniuk.",
+      "A környezetelemzés egyszerre szolgál kockázatfeltárásra és lehetőségazonosításra, ezért közvetlen stratégiai input.",
+      "A környezet nem statikus háttér, hanem olyan feltételrendszer, amelyhez a szervezetnek folyamatosan illeszkednie kell."
+    ],
+    "keywords": [
+      "iparág",
+      "külső környezet",
+      "PESTEL",
+      "versenyhelyzet",
+      "lehetőségek",
+      "kockázatok"
+    ],
+    "relatedTopicIds": [3, 4, 8, 9]
+  },
+  {
+    "id": 8,
+    "slug": "kontingenciaelmelet-es-szervezeti-illeszkedes",
+    "module": "Szervezettervezés",
+    "title": "Kontingenciaelmélet és szervezeti illeszkedés",
+    "overview": "A kontingenciaelmélet központi állítása, hogy nincs minden helyzetre érvényes, univerzálisan legjobb szervezeti megoldás. A szervezet teljesítménye attól függ, mennyire illeszkedik egymáshoz a környezet, a stratégia, a struktúra, a magatartás és a teljesítménylogika.",
+    "keyPoints": [
+      "A kontingenciaelmélet az egyetlen üdvözítő modell keresése helyett az illeszkedést teszi a vizsgálat középpontjába.",
+      "Ugyanaz a struktúra más környezetben lehet hatékony vagy éppen merev, ezért a szervezeti megoldásokat mindig kontextusban kell értékelni.",
+      "A környezet-stratégia-struktúra-magatartás-teljesítmény kapcsolat többtényezős rendszer, amelyben az egyik elem változása más elemeket is érint.",
+      "Az illeszkedési logika segít megérteni, miért nem működnek mechanikusan átvett jó gyakorlatok más szervezetekben.",
+      "A vezető feladata nem az egyetlen helyes forma kiválasztása, hanem az adott helyzethez legjobban illeszkedő kombináció kialakítása."
+    ],
+    "keywords": [
+      "kontingenciaelmélet",
+      "illeszkedés",
+      "környezet",
+      "stratégia",
+      "struktúra",
+      "teljesítmény"
+    ],
+    "relatedTopicIds": [7, 9, 10, 11]
+  },
+  {
+    "id": 9,
+    "slug": "szervezetalakitast-befolyasolo-tenyezok",
+    "module": "Szervezettervezés",
+    "title": "Szervezetalakítást befolyásoló tényezők",
+    "overview": "A szervezeti kialakítás és átalakítás soha nem légüres térben történik. A vezetésnek egyszerre kell számolnia a környezettel, a belső adottságokkal, a meglévő struktúrával és az emberi erőforrásokkal, mert ezek együtt határozzák meg a reális mozgásteret.",
+    "keyPoints": [
+      "A környezet rövid távon a legkevésbé változtatható tényező, ezért a szervezetnek gyakran ehhez kell igazítania a belső működését.",
+      "A méret, a technológia, az eredet, a telepítési helyzet és az alaptevékenység a belső adottságok fontos csoportját alkotja.",
+      "A meglévő struktúra és a rendelkezésre álló humán erőforrás megszabja, mennyire radikális átalakítás végezhető el reálisan.",
+      "A vezetés kettős feladata, hogy egyrészt illeszkedjen a jelenlegi feltételekhez, másrészt hosszabb távon javítsa a kedvezőtlen feltételeket.",
+      "A szervezeti változtatás ezért nem csak rajzolási feladat, hanem időzítési, fejlesztési és kapacitáskezelési kérdés is."
+    ],
+    "keywords": [
+      "belső adottságok",
+      "környezet",
+      "méret",
+      "technológia",
+      "humán erőforrás",
+      "változtatási mozgástér"
+    ],
+    "relatedTopicIds": [7, 8, 13, 30]
+  },
+  {
+    "id": 10,
+    "slug": "egyszeru-es-funkcionalis-szervezet",
+    "module": "Szervezettervezés",
+    "title": "Egyszerű és funkcionális szervezet",
+    "overview": "Az egyszerű és a funkcionális szervezet a klasszikus szervezeti modellek közé tartozik, de eltérő működési logikával. Az egyszerű szervezet centralizáltabb és személyfüggőbb, a funkcionális szervezet pedig specializáltabb és szabályozottabb működést támogat.",
+    "keyPoints": [
+      "Az egyszerű szervezet kevés hierarchiaszinttel, erős központi vezetői koordinációval és alacsony formalizáltsággal működik.",
+      "Ez a forma kis méretben és áttekinthető tevékenység esetén gyors és rugalmas lehet, de a vezető túlterhelődése hamar korláttá válik.",
+      "A funkcionális szervezet a hasonló szakmai tevékenységeket egy-egy funkcióba rendezi, így erősíti a szakértelmet és az egységesítést.",
+      "A funkcionális forma nagyobb szervezetekben hatékony, de hajlamos silósodásra és gyengébb horizontális koordinációra.",
+      "A két modell jó összehasonlítási alap arra, hogy megértsük a centralizáció, a specializáció és a koordináció közötti trade-offokat."
+    ],
+    "keywords": [
+      "egyszerű szervezet",
+      "funkcionális szervezet",
+      "centralizáció",
+      "specializáció",
+      "hierarchia",
+      "silosodás"
+    ],
+    "relatedTopicIds": [8, 11, 12, 13]
+  },
+  {
+    "id": 11,
+    "slug": "divizionalis-szervezet",
+    "module": "Szervezettervezés",
+    "title": "Divizionális szervezet",
+    "overview": "A divizionális szervezet akkor jelenik meg erős alternatívaként, amikor a szervezet már több termékkel, piaccal vagy földrajzi egységgel dolgozik. Ilyenkor önállóbb egységek kapnak nagyobb felelősséget a saját outputjukért és eredményükért.",
+    "keyPoints": [
+      "A divíziók jellemzően termék, piac, földrajzi terület vagy ügyfélcsoport szerint szerveződnek, és saját felelősségi központként működnek.",
+      "Ez a forma javíthatja a piaci reagálóképességet, mert a helyi egységek közelebb kerülnek a vevőhöz és az eredményhez.",
+      "A divizionális működés előnye a világos output-felelősség, amihez gyakran piaci vagy pénzügyi kontroll is könnyen kapcsolható.",
+      "Hátránya lehet a párhuzamos kapacitások kialakulása, a belső rivalizálás és a vállalati egység gyengülése.",
+      "A divizionális modell erősen megköveteli a központ és az egységek közötti világos felelősség- és kontrollhatárokat."
+    ],
+    "keywords": [
+      "divízió",
+      "output felelősség",
+      "termék szerinti szervezés",
+      "piaci közelség",
+      "decentralizáció",
+      "pénzügyi kontroll"
+    ],
+    "relatedTopicIds": [10, 12, 30]
+  },
+  {
+    "id": 12,
+    "slug": "matrixszervezet",
+    "module": "Szervezettervezés",
+    "title": "Mátrixszervezet",
+    "overview": "A mátrixszervezet egyszerre akar több fontos dimenziót érvényesíteni, tipikusan a funkcionális és a projekt- vagy terméklogikát. Emiatt nagy koordinációs igénnyel jár, de komplex környezetben rugalmasabb válaszokat adhat, mint a tisztán egydimenziós szerkezetek.",
+    "keyPoints": [
+      "A mátrix lényege, hogy egy munkatárs vagy egység két logika szerint is kapcsolódik a szervezethez, ezért megosztott függelmi viszonyok alakulhatnak ki.",
+      "Előnye, hogy egyszerre tartható fenn a szakmai mélység és a projekt- vagy piaci alkalmazkodás.",
+      "Hátránya a konfliktuspotenciál, mert a szereplőknek gyakran kettős elvárásrendszerben kell működniük.",
+      "A mátrix nem önmagában jobb, hanem olyan helyzetekben hasznos, ahol több dimenzió egyidejű kezelése valódi értéket teremt.",
+      "A sikeres mátrixszervezet sok kommunikációt, egyeztetést és világos prioritáskezelést igényel a vezetőktől."
+    ],
+    "keywords": [
+      "mátrixszervezet",
+      "kettős függés",
+      "projektlogika",
+      "funkcionális logika",
+      "konfliktus",
+      "koordináció"
+    ],
+    "relatedTopicIds": [10, 11, 13, 30]
+  },
+  {
+    "id": 13,
+    "slug": "munkamegosztas-koordinacio-formalizalas",
+    "module": "Szervezettervezés",
+    "title": "Munkamegosztás, koordináció és formalizálás",
+    "overview": "A struktúra nem csak dobozokból álló ábra, hanem olyan alapjellemzők rendszere, mint a munkamegosztás, a koordináció és a formalizálás. Ezek együtt döntik el, hogyan oszlik meg a feladat, mennyire önállóak az egységek, és milyen szabályok mentén működik a szervezet.",
+    "keyPoints": [
+      "A munkamegosztás azt rendezi, hogy milyen feladatokat, felelősségeket és döntési jogokat bontanak szét a szervezeten belül.",
+      "A koordináció biztosítja, hogy a szétosztott részfeladatok végül összeálljanak közös szervezeti teljesítménnyé.",
+      "A formalizálás a szabályok, eljárások és dokumentált működési rend mértékét fejezi ki, ami növelheti a kiszámíthatóságot.",
+      "A túl alacsony formalizálás káoszhoz, a túl magas formalizálás merevséghez vezethet, ezért az arány a helyzettől függ.",
+      "A strukturális jellemzők jó megértése nélkül a szervezeti modellek közötti különbségek sem értelmezhetők helyesen."
+    ],
+    "keywords": [
+      "munkamegosztás",
+      "koordináció",
+      "formalizálás",
+      "hatáskör",
+      "konfiguráció",
+      "struktúra"
+    ],
+    "relatedTopicIds": [9, 10, 12, 14]
+  },
+  {
+    "id": 14,
+    "slug": "folyamatszervezes-alapjai",
+    "module": "Folyamatszervezés",
+    "title": "Folyamatszervezés alapjai",
+    "overview": "A folyamatszervezés a tevékenységek összekapcsolására és a végigfutó munkamenetek javítására koncentrál. Nem elsősorban a szervezeti dobozokat, hanem azt vizsgálja, hogyan halad végig egy ügy, termék vagy szolgáltatás a szervezeten belül.",
+    "keyPoints": [
+      "A folyamatszervezés célja, hogy javítsa a minőséget, csökkentse a költséget és rövidítse az átfutási időt.",
+      "Folyamatnézőpontból a szervezet nem elkülönült egységek halmaza, hanem egymásra épülő tevékenységek láncolata.",
+      "Ez a szemlélet segít meglátni azokat a szűk keresztmetszeteket és átadásokat, amelyek a hagyományos struktúraábrán rejtve maradnak.",
+      "A folyamatszervezés tipikusan ügyfél- vagy outputközpontúbb, mint a tisztán hierarchikus szemlélet.",
+      "A szervezettervezés és a folyamatszervezés nem egymás helyett, hanem egymást kiegészítve ad teljes képet a működésről."
+    ],
+    "keywords": [
+      "folyamatszervezés",
+      "átfutási idő",
+      "minőség",
+      "költség",
+      "folyamatnézőpont",
+      "szűk keresztmetszet"
+    ],
+    "relatedTopicIds": [13, 15, 16, 30]
+  },
+  {
+    "id": 15,
+    "slug": "folyamatoptimalizalas-cpi",
+    "module": "Folyamatszervezés",
+    "title": "Folyamatoptimalizálás (CPI)",
+    "overview": "A folyamatoptimalizálás vagy CPI a meglévő folyamatok javítására épít, nem pedig teljes újraalkotásukra. Inkább fokozatos fejlesztési logikát követ, és a jelenlegi működés hibáit, veszteségeit, lassulásait igyekszik csökkenteni.",
+    "keyPoints": [
+      "A CPI rendszerint valamilyen felismerhető átalakítási igénnyel indul, például vevői panasszal, költségnyomással vagy belső zavarokkal.",
+      "Lépései közé tartozik a jelenlegi folyamat elemzése, az optimalizálási célok kijelölése és a működési alternatívák kidolgozása.",
+      "A megközelítés erősen támaszkodik a múltbeli tapasztalatokra és a folyamat belső logikájának részletes megértésére.",
+      "Előnye, hogy kisebb szervezeti sokkot okoz, mint a radikális újratervezés, ezért könnyebben elfogadható a szervezet számára.",
+      "Korlátja, hogy a meglévő folyamat alapfeltevéseit ritkábban kérdőjelezi meg, ezért mélyebb szerkezeti problémákat nem mindig old meg."
+    ],
+    "keywords": [
+      "CPI",
+      "folyamatoptimalizálás",
+      "lépésenkénti fejlesztés",
+      "folyamatelemzés",
+      "optimalizálási cél",
+      "beavatkozás"
+    ],
+    "relatedTopicIds": [14, 16, 30]
+  },
+  {
+    "id": 16,
+    "slug": "ujratervezes-es-radikalis-folyamatatalakitas",
+    "module": "Folyamatszervezés",
+    "title": "Újratervezés és radikális folyamatátalakítás",
+    "overview": "A folyamat-újratervezés akkor kerül előtérbe, amikor a jelenlegi folyamat kisebb javításokkal már nem tehető versenyképessé. Ilyenkor nem a meglévő rendszer foltozása, hanem egy lényegében új működési logika kialakítása válik céllá.",
+    "keyPoints": [
+      "A radikális átalakítás a teljesen új folyamat kitalálását célozza, ezért nem elsősorban a jelenlegi hibák részletes javításából indul ki.",
+      "Erősebb változást és nagyobb ellenállást válthat ki, mert megszokott szerepeket, felelősségeket és információáramlást írhat át.",
+      "Tipikusan akkor indokolt, ha a környezet, a technológia vagy a versenyhelyzet már alapjaiban más működést kíván meg.",
+      "A nagy ívű áttervezéshez világos működési jövőkép és erős vezetői támogatás kell, különben könnyen szétesik a megvalósítás.",
+      "A CPI és az újratervezés közötti különbség nem fokozati, hanem szemléleti: az egyik javít, a másik újraértelmez."
+    ],
+    "keywords": [
+      "újratervezés",
+      "radikális változás",
+      "BPR",
+      "működési jövőkép",
+      "ellenállás",
+      "új folyamat"
+    ],
+    "relatedTopicIds": [14, 15, 30]
+  },
+  {
+    "id": 17,
+    "slug": "leader-vs-menedzser-kotter",
+    "module": "Személyes vezetés",
+    "title": "Leader vs menedzser (Kotter)",
+    "overview": "Kotter megkülönböztetése nem rangsort állít fel a vezetői szerepek között, hanem két eltérő fókuszt mutat meg. A menedzser inkább rendet és kiszámíthatóságot épít, a leader pedig irányt és elköteleződést teremt, ezért a kettő együtt ad működő vezetést.",
+    "keyPoints": [
+      "A menedzseri logika közelebb áll a tervezéshez, szervezéshez, ellenőrzéshez és a komplexitás kordában tartásához.",
+      "A leaderi logika inkább jövőképet alkot, embereket mozgósít és változást tesz végigvihetővé.",
+      "A két szerep nem személyekre, hanem feladatfókuszokra utal, így ugyanaz a vezető különböző helyzetekben másik oldalt erősítheti.",
+      "Változó környezetben nő a leaderi irányadás jelentősége, de stabil működés nélkül a vízió önmagában kevés.",
+      "A tárgy szempontjából a megkülönböztetés segít elhelyezni a személyes vezetés témáit a klasszikus menedzsmentfeladatok mellett."
+    ],
+    "keywords": [
+      "Kotter",
+      "leader",
+      "menedzser",
+      "változás",
+      "rendszerépítés",
+      "mozgósítás"
+    ],
+    "relatedTopicIds": [2, 18, 25]
+  },
+  {
+    "id": 18,
+    "slug": "mintzberg-vezetoi-szerepei",
+    "module": "Személyes vezetés",
+    "title": "Mintzberg vezetői szerepei",
+    "overview": "Mintzberg a vezetői munkát nem ideális személyiségjegyekből, hanem ténylegesen végzett szerepekből vezeti le. Modellje azért fontos, mert megmutatja, hogy a vezetői munka egyszerre kapcsolati, információs és döntési természetű.",
+    "keyPoints": [
+      "A személyközi szerepek közé tartozik a reprezentáció, a kapcsolatteremtés és a vezetői-főnöki jelenlét kezelése.",
+      "Az információs szerepek lényege az információ gyűjtése, szűrése, értelmezése és továbbítása a szervezetben.",
+      "A döntési szerepekhez tartozik a vállalkozó, a zavarelhárító, az erőforrás-elosztó és a tárgyaló szerep.",
+      "A modell azt hangsúlyozza, hogy a vezető munkaidejének nagy része töredezett, gyors váltásokkal tarkított és erősen kommunikációintenzív.",
+      "A szerepek együttesen mutatják meg, miért nem szűkíthető le a vezetés puszta utasításadásra vagy adminisztrációra."
+    ],
+    "keywords": [
+      "Mintzberg",
+      "személyközi szerepek",
+      "információs szerepek",
+      "döntési szerepek",
+      "erőforrás-elosztó",
+      "zavarelhárító"
+    ],
+    "relatedTopicIds": [2, 17, 25, 26]
+  },
+  {
+    "id": 19,
+    "slug": "motivacio-alapfogalmai-es-szuksegletek",
+    "module": "Személyes vezetés",
+    "title": "Motiváció alapfogalmai és szükségletek",
+    "overview": "A motiváció az a belső hajtóerő, amely az egyéni erőfeszítést kiváltja, irányítja és fenntartja. A vezetés számára azért kulcskérdés, mert a teljesítményt nem csak a képességek és a környezet, hanem a motiváltság szintje is meghatározza.",
+    "keyPoints": [
+      "Az egyéni teljesítmény három fő összetevője a környezet, a képességek és a motiváció, ezért a motiválás nem helyettesíti a rossz szervezeti feltételek javítását.",
+      "A szükséglet hiányállapotként jelenik meg, belső feszültséget okoz, és valamilyen viselkedést indít el a feszültség csökkentésére.",
+      "A motivációelméletek egy része arra ad választ, mi motivál, más része pedig arra, hogyan alakul ki és tart fenn a motiváció.",
+      "A vezetőnek nem univerzális ösztönzőkben kell gondolkodnia, hanem abban, hogy mely szükségletek és helyzetek mozgatják az adott embert vagy csoportot.",
+      "A motiváció értelmezése alapot ad a későbbi tartalomelméletek, emberképek és vezetési stílusok megértéséhez."
+    ],
+    "keywords": [
+      "motiváció",
+      "szükséglet",
+      "belső hajtóerő",
+      "teljesítmény",
+      "képesség",
+      "környezet"
+    ],
+    "relatedTopicIds": [20, 21, 22, 23]
+  },
+  {
+    "id": 20,
+    "slug": "maslow-szukseglethierarchia",
+    "module": "Személyes vezetés",
+    "title": "Maslow szükséglethierarchia",
+    "overview": "Maslow modellje az egyik legismertebb motivációs tartalomelmélet, mert rendezett szerkezetben mutatja be az emberi szükségleteket. A modell ereje az áttekinthetőség, korlátja pedig az, hogy a valós motiváció gyakran kevésbé lineáris, mint amit a hierarchia sugall.",
+    "keyPoints": [
+      "A klasszikus öt szint: fiziológiai szükségletek, biztonság, közösséghez tartozás, elismerés és önmegvalósítás.",
+      "A modell szerint az alacsonyabb szintek erős kielégítetlensége háttérbe szorítja a magasabb rendű szükségleteket.",
+      "Vezetői szempontból a modell arra emlékeztet, hogy nem lehet minden problémát ugyanazzal az ösztönzővel kezelni.",
+      "A munkahelyi motiváció magasabb szintjeihez tipikusan nagyobb felelősség, fejlődési lehetőség és önállóság kapcsolódik.",
+      "A kritikák szerint a szükségletek sorrendje nem mindig igazolható empirikusan, ezért a modellt inkább tájékozódási térképként érdemes használni."
+    ],
+    "keywords": [
+      "Maslow",
+      "szükséglethierarchia",
+      "önmegvalósítás",
+      "elismerés",
+      "biztonság",
+      "fiziológiai szükséglet"
+    ],
+    "relatedTopicIds": [19, 21, 22]
+  },
+  {
+    "id": 21,
+    "slug": "alderfer-erg-elmelet",
+    "module": "Személyes vezetés",
+    "title": "Alderfer ERG-elmélet",
+    "overview": "Alderfer ERG-modellje Maslow logikáját egyszerűsíti és rugalmasabbá teszi. A három kategóriára bontott rendszer jobban kezeli azt a helyzetet, hogy egyszerre többféle szükséglet is aktív lehet, és hogy a frusztráció visszaterelhet alacsonyabb szintű célokhoz.",
+    "keyPoints": [
+      "Az ERG három fő kategóriája a létezés, a kapcsolat és a fejlődés, amelyek a szükségletek tömörebb csoportosítását adják.",
+      "A modell megengedi, hogy az egyént egyszerre több szükséglet is motiválja, ezért rugalmasabb a szigorú hierarchiánál.",
+      "Fontos eleme a frusztráció-visszalépés elve: ha a magasabb rendű cél nem érhető el, az egyén visszafordulhat alacsonyabb szintű szükségletek felé.",
+      "A vezető ebből azt tanulhatja meg, hogy a motiváció nem mindig egyenes fejlődési út, hanem helyzetfüggő mozgás a szükségletek között.",
+      "Az ERG ezért jól használható olyan helyzetekben, ahol a munkatárs motivációja egyszerre kötődik biztonsághoz, kapcsolatokhoz és fejlődési igényhez."
+    ],
+    "keywords": [
+      "Alderfer",
+      "ERG",
+      "létezés",
+      "kapcsolat",
+      "fejlődés",
+      "frusztráció-visszalépés"
+    ],
+    "relatedTopicIds": [19, 20, 24]
+  },
+  {
+    "id": 22,
+    "slug": "herzberg-kettenyezos-modell",
+    "module": "Személyes vezetés",
+    "title": "Herzberg kéttényezős modellje",
+    "overview": "Herzberg különválasztja az elégedetlenséget csökkentő és a valódi motivációt növelő tényezőket. Ez a modell különösen hasznos vezetői nézőpontból, mert rámutat: a panaszok megszüntetése még nem azonos a belső elkötelezettség felépítésével.",
+    "keyPoints": [
+      "A higiéniás tényezők, például a fizetés, a munkakörülmények vagy a szabályozottság hiánya elégedetlenséget okoz.",
+      "E tényezők megléte azonban többnyire csak semleges állapotot eredményez, tehát nem feltétlenül vált ki erős motivációt.",
+      "A motivátorok, mint a teljesítményélmény, felelősség, előrelépés és kihívás, valóban növelhetik az elkötelezettséget.",
+      "A modell arra figyelmeztet, hogy a vezető ne azonosítsa automatikusan a pénzügyi vagy adminisztratív rendezést a motiválással.",
+      "Gyakorlati alkalmazása akkor erős, ha a munkakörök tervezésében és a felhatalmazás mértékében is megjelenik."
+    ],
+    "keywords": [
+      "Herzberg",
+      "higiénés tényezők",
+      "motivátorok",
+      "elégedetlenség",
+      "felelősség",
+      "kihívás"
+    ],
+    "relatedTopicIds": [19, 20, 23]
+  },
+  {
+    "id": 23,
+    "slug": "mcgregor-x-es-y-emberkepe",
+    "module": "Személyes vezetés",
+    "title": "McGregor X és Y emberképe",
+    "overview": "McGregor X és Y emberképe nem személyiségteszt, hanem vezetői alapfeltevések rendszere. A modell azt mutatja meg, hogy a vezető emberképe közvetlenül befolyásolja, milyen irányítási és motiválási eszközökhöz nyúl.",
+    "keyPoints": [
+      "Az X emberkép szerint a munka inkább szükséges rossz, az emberek kerülik a felelősséget, ezért erősebb ellenőrzésre és kényszerítésre van szükség.",
+      "Az Y emberkép szerint a munka természetes lehet, az emberek képesek felelősséget vállalni és alkotni, ha megfelelő feltételeket kapnak.",
+      "A két emberkép eltérő vezetési stílusokat és motivációs eszközöket hív elő, ezért nem puszta elméleti különbségről van szó.",
+      "A modell arra is rámutat, hogy a vezető saját feltételezései önbeteljesítő mechanizmussá válhatnak a szervezetben.",
+      "McGregor gondolata jól összekapcsolható a stílusokkal, a részvétellel és azzal, mennyi autonómiát kap a beosztott."
+    ],
+    "keywords": [
+      "McGregor",
+      "X emberkép",
+      "Y emberkép",
+      "ellenőrzés",
+      "felelősség",
+      "autonómia"
+    ],
+    "relatedTopicIds": [17, 19, 25]
+  },
+  {
+    "id": 24,
+    "slug": "hunt-celstruktura-modell",
+    "module": "Személyes vezetés",
+    "title": "Hunt célstruktúra-modell",
+    "overview": "Hunt modellje a motivációt nem merev hierarchiaként, hanem dinamikus célstruktúraként fogja fel. Ez azért hasznos, mert jobban megmutatja az egyéni különbségeket és azt, hogy az emberek egyszerre több, eltérő természetű célt is követhetnek.",
+    "keyPoints": [
+      "A modell olyan célterületeket különít el, mint a komfort, a strukturáltság, a kapcsolat, az elismertség, a hatalom és az önmegvalósítás.",
+      "Ezek a célok nem fix sorrendben jelennek meg, hanem egyénenként eltérő, folyamatosan változó szerkezetet alkotnak.",
+      "A célstruktúra-logika jobban kezeli azt a valóságot, hogy valaki egyszerre vágyhat biztonságra, elismerésre és autonómiára.",
+      "Vezetőként ez arra ösztönöz, hogy ne egyetlen motivációs sablonnal dolgozzunk, hanem személyre és helyzetre szabjuk az ösztönzőket.",
+      "A modell különösen hasznos összetett tudásmunkában, ahol a klasszikus külső ösztönzők nem magyarázzák teljesen a teljesítményt."
+    ],
+    "keywords": [
+      "Hunt",
+      "célstruktúra",
+      "komfort",
+      "strukturáltság",
+      "hatalom",
+      "önmegvalósítás"
+    ],
+    "relatedTopicIds": [19, 21, 22, 23]
+  },
+  {
+    "id": 25,
+    "slug": "lewin-vezetesi-stilusai",
+    "module": "Személyes vezetés",
+    "title": "Lewin vezetési stílusai",
+    "overview": "Kurt Lewin klasszikus kísérlete a vezetési stílusok hatását hasonlítja össze a csoportműködésre és a teljesítményre. A három alapstílus jól mutatja, hogy a rövid távú output, a hangulat, a kreativitás és a vezetőfüggőség nem ugyanabba az irányba húz.",
+    "keyPoints": [
+      "Az autokratikus stílus erős irányítással és központi döntéssel dolgozik, ezért rövid távon magas teljesítményt hozhat, de nagyobb feszültséget kelt.",
+      "A demokratikus stílus bevonja a csoportot a döntésekbe, így jobb légkört és nagyobb kreativitást támogathat.",
+      "A megengedő vagy laissez-faire stílus minimális vezetői beavatkozást alkalmaz, ami szabadságot ad, de gyakran gyenge minőségű eredményhez vezet.",
+      "Lewin eredményei arra figyelmeztetnek, hogy a teljesítményt nem szabad a csoportlégkör és a fenntarthatóság figyelmen kívül hagyásával értékelni.",
+      "A stílusválasztás hatása csak részben közvetlen, részben a csoportnormákon és a vezető távollétében fennmaradó működésen keresztül jelenik meg."
+    ],
+    "keywords": [
+      "Lewin",
+      "autokratikus",
+      "demokratikus",
+      "laissez-faire",
+      "vezetési stílus",
+      "csoportlégkör"
+    ],
+    "relatedTopicIds": [17, 18, 26, 29]
+  },
+  {
+    "id": 26,
+    "slug": "hersey-blanchard-szituativ-leadership",
+    "module": "Személyes vezetés",
+    "title": "Hersey–Blanchard szituatív leadership",
+    "overview": "A szituatív leadership abból indul ki, hogy nincs minden helyzetben egyformán jó vezetési stílus. A beosztott érettsége, vagyis a képesség és a hajlandóság kombinációja dönti el, mennyi irányításra és mennyi támogatásra van szükség.",
+    "keyPoints": [
+      "A modell négy érettségi szintet különböztet meg, amelyek a tudás és az elkötelezettség eltérő kombinációit írják le.",
+      "A diktáló stílus magas feladatorientációval és alacsony kapcsolatorientációval működik, ha a beosztott még nem képes és nem is igazán hajlandó önállóan dolgozni.",
+      "Az eladó stílus egyszerre ad irányítást és támogatást, amikor a beosztott motivált, de még nem elég kompetens.",
+      "A résztvevő és a delegáló stílus fokozatosan több önállóságot enged, ahogy a beosztott képessége és hajlandósága nő.",
+      "A modell lényege nem a kategorizálás, hanem az, hogy a vezető tanulja meg rugalmasan váltani a viselkedését."
+    ],
+    "keywords": [
+      "Hersey",
+      "Blanchard",
+      "szituatív leadership",
+      "érettség",
+      "irányítás",
+      "támogatás"
+    ],
+    "relatedTopicIds": [17, 18, 25, 29]
+  },
+  {
+    "id": 27,
+    "slug": "kommunikacio-modellje-es-iranyai",
+    "module": "Személyes vezetés",
+    "title": "Kommunikáció modellje és irányai",
+    "overview": "A kommunikáció a vezetői munka egyik legidőigényesebb és legfontosabb eleme, mert minden funkciót áthat. A klasszikus modell segít megérteni, hogyan alakul ki az üzenet, hogyan torzulhat, és milyen irányokban áramlik a szervezeten belül.",
+    "keyPoints": [
+      "A kommunikációban a küldő kódolja az üzenetet, azt valamilyen csatornán továbbítja, a fogadó pedig dekódolja és visszacsatolást ad.",
+      "A zajok és torzítások miatt a szándékolt és a ténylegesen megértett üzenet között könnyen eltérés keletkezhet.",
+      "A lefelé irányuló kommunikáció jellemzően célokat, szabályokat, eljárásokat és visszajelzéseket közvetít.",
+      "A felfelé irányuló kommunikáció problémákat, javaslatokat, beszámolókat és sérelmeket juttat a vezetés felé.",
+      "A horizontális kommunikáció az azonos szintű egységek együttműködését, koordinációját és problémamegoldását támogatja."
+    ],
+    "keywords": [
+      "kommunikáció",
+      "kódolás",
+      "dekódolás",
+      "visszacsatolás",
+      "lefelé irányuló",
+      "horizontális kommunikáció"
+    ],
+    "relatedTopicIds": [17, 18, 28, 29]
+  },
+  {
+    "id": 28,
+    "slug": "informalis-kommunikacio-es-szervezeti-kapcsolatok",
+    "module": "Személyes vezetés",
+    "title": "Informális kommunikáció és szervezeti kapcsolatok",
+    "overview": "A szervezetek kommunikációja nem merül ki a hivatalos csatornákban. Az informális kapcsolatok és a grapevine gyors, nehezen szabályozható, de nagyon befolyásos kommunikációs hálózatot alkotnak, amelyet a jó vezető nem egyszerűen elnyomni akar, hanem értelmezni és kezelni.",
+    "keyPoints": [
+      "Az informális kommunikáció személyes kapcsolatokra, bizalomra és közvetlen érintkezésekre épül, ezért gyorsan terjed a szervezeten belül.",
+      "Bár gyakran pletykaként jelenik meg, nem csak torz információt terjeszt, hanem valós szervezeti jelzéseket is hordozhat.",
+      "A vezető számára az informális hálózat fontos visszajelző rendszer lehet, különösen a hangulat, az ellenállás és a rejtett problémák megértésében.",
+      "Az informális kapcsolatok összekötik a formális struktúra által szétválasztott szereplőket, ezért a koordinációban is lehet pozitív szerepük.",
+      "A túlzottan elzárt vagy bizalmatlan szervezetben az informális kommunikáció könnyen a hivatalos rendszer helyére léphet."
+    ],
+    "keywords": [
+      "informális kommunikáció",
+      "grapevine",
+      "bizalom",
+      "szervezeti kapcsolatok",
+      "pletyka",
+      "visszajelzés"
+    ],
+    "relatedTopicIds": [27, 29, 30]
+  },
+  {
+    "id": 29,
+    "slug": "csoportok-csapatok-es-szerepek",
+    "module": "Személyes vezetés",
+    "title": "Csoportok, csapatok és szerepek",
+    "overview": "A szervezeti teljesítmény jelentős része csoportokban valósul meg, ezért a vezetőnek értenie kell a csoportok működését és a bennük megjelenő szerepeket. A téma a formális és informális csoportok mellett a csoportszerepek vezetői jelentőségére is rámutat.",
+    "keyPoints": [
+      "Csoportnak legalább két, rendszeres interakcióban álló embert tekintünk, akik valamilyen közös cél vagy feladat mentén kapcsolódnak egymáshoz.",
+      "A szervezetben formális csoportok, például funkcionális vagy feladatcsoportok, és informális csoportok, például érdekközösségek is léteznek.",
+      "A csoportműködést nem csak a formális pozíciók, hanem a ténylegesen felvett szerepek és viselkedésminták is alakítják.",
+      "A szerepalapú megközelítések, például a Belbin-féle logika, segítenek megérteni, hogy a csapatokban eltérő hozzájárulási minták működnek együtt.",
+      "A jó vezető nem pusztán irányítja a csoportot, hanem felépíti a működőképes normákat, kezeli a konfliktusokat és erősíti a kohéziót."
+    ],
+    "keywords": [
+      "csoport",
+      "csapat",
+      "formális csoport",
+      "informális csoport",
+      "csoportszerep",
+      "kohézió"
+    ],
+    "relatedTopicIds": [25, 26, 27, 28]
+  },
+  {
+    "id": 30,
+    "slug": "kontroll-folyamat-tipusok-es-controlling",
+    "module": "Kontroll",
+    "title": "Kontroll: cél, folyamat, kontrolltípusok, kontrollszintek és controlling",
+    "overview": "A kontroll a vezetői visszacsatolás rendszere, amely a szervezet magatartását és eredményeit a célok felé tereli. Egyszerre gazdasági, pszichológiai és hatalmi jelentőségű funkció, ezért a stratégia, a szervezet és a napi működés összekapcsolásában is központi szerepet játszik.",
+    "keyPoints": [
+      "A kontrollfolyamat lépései a standardok kijelölése, a tényleges értékek mérése, az eltérések elemzése és a beavatkozás.",
+      "A kontroll irányulhat inputra, folyamatra vagy outputra, ezért nem csak utólagos mérésről, hanem működésbefolyásolásról is szó van.",
+      "A fő kontrolltípusok a piaci, a bürokratikus és a klánkontroll, amelyek eltérő feltételek között hatékonyak.",
+      "Időhorizont szerint megkülönböztethető stratégiai kontroll, menedzsmentkontroll és feladatkontroll.",
+      "A controlling nem külön vezetési funkció, hanem a tervezést, az elszámolást és a beszámolást összerendező eszközrendszer, amely információt ad a vezetői döntésekhez."
+    ],
+    "keywords": [
+      "kontroll",
+      "standard",
+      "piaci kontroll",
+      "bürokratikus kontroll",
+      "klánkontroll",
+      "controlling"
+    ],
+    "relatedTopicIds": [1, 6, 11, 12]
+  }
+]

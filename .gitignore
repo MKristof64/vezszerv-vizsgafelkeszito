@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.DS_Store
+Thumbs.db
+
+output/app-current.png
+output/app-updated.png
+output/edge-dom-check.html
+output/edge-dom-local-book.html
+output/edge-dom-http-book.html
+output/book-ocr.json
+output/book-ocr-smoke.json
+
+bin/PdfBookOcr.exe
