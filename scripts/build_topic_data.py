@@ -16,6 +16,8 @@ from pypdf import PdfReader
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SOURCE_DIR = Path(r"C:\Users\krist\OneDrive\Dokumentumok\vezsz")
 DEFAULT_BOOK_SHARE_URL = "https://mersz.hu/kiadvany/147/"
+DEFAULT_TEST_BANK_NAME = "vezsz_megertes_kerdesek_indoklassal.docx"
+QUIZ_SELECTION_COUNT = 15
 
 TOPIC_STUDY_GUIDES = {
     "szervezet-vezetes-hatekonysag-eredmenyesseg": {
@@ -383,6 +385,12 @@ def parse_args() -> argparse.Namespace:
         default=ROOT / "output" / "topics.generated.json",
         help="A létrejövő, validált témaköri adatfájl.",
     )
+    parser.add_argument(
+        "--test-bank",
+        type=Path,
+        default=None,
+        help="Opcionális Word kérdésbank. Ha nincs megadva, a source-dirből próbálja betölteni.",
+    )
     return parser.parse_args()
 
 
@@ -436,6 +444,10 @@ def extract_docx_text(path: Path) -> str:
     text = re.sub(r"</w:p>", "\n", xml)
     text = re.sub(r"<[^>]+>", "", text)
     return normalize_text(text)
+
+
+def extract_docx_lines(path: Path) -> list[str]:
+    return [line.strip() for line in extract_docx_text(path).splitlines() if line.strip()]
 
 
 def extract_pdf_text(path: Path) -> str:
@@ -505,6 +517,23 @@ def resolve_shareable_book_url(book_path: Path | None) -> str | None:
     return None
 
 
+def resolve_test_bank_docx(source_dir: Path, explicit_path: Path | None) -> Path | None:
+    candidates: list[Path] = []
+    if explicit_path:
+        candidates.append(explicit_path)
+    candidates.extend(
+        [
+            source_dir / DEFAULT_TEST_BANK_NAME,
+            source_dir / "vezsz kerdesek.docx",
+        ]
+    )
+
+    for candidate in candidates:
+        if candidate.exists() and candidate.is_file():
+            return candidate
+    return None
+
+
 def load_supporting_corpus(source_dir: Path) -> tuple[list[dict], str]:
     sources: list[dict] = []
     combined_texts: list[str] = []
@@ -534,6 +563,101 @@ def load_ocr_corpus(ocr_path: Path) -> tuple[int, str]:
     pages = payload.get("pages", []) if isinstance(payload, dict) else []
     texts = [normalize_text(page.get("text", "")) for page in pages]
     return len(pages), normalize_text("\n\n".join(texts))
+
+
+def parse_quiz_bank(test_bank_path: Path | None) -> dict:
+    empty_bank = {
+        "sourcePath": str(test_bank_path) if test_bank_path else None,
+        "selectionCount": QUIZ_SELECTION_COUNT,
+        "questionCount": 0,
+        "questions": [],
+    }
+    if not test_bank_path or not test_bank_path.exists():
+        return empty_bank
+
+    question_pattern = re.compile(r"^(?P<id>\d+)\.\s+(?P<prompt>.+)$")
+    option_pattern = re.compile(r"^(?P<label>[a-d])(?P<correct>\*)?\)\s*(?P<text>.+)$", re.IGNORECASE)
+    explanation_pattern = re.compile(r"^Indoklás:\s*(?P<text>.+)$", re.IGNORECASE)
+    package_pattern = re.compile(r"^\d+\.\s*csomag\s*[–-]\s*(?P<title>.+)$", re.IGNORECASE)
+
+    questions: list[dict] = []
+    current_question: dict | None = None
+    current_package: str | None = None
+
+    def flush_question() -> None:
+        nonlocal current_question
+        if not current_question:
+            return
+
+        options = current_question.get("options", [])
+        correct_count = sum(1 for option in options if option.get("isCorrect"))
+        if len(options) != 4:
+            raise ValueError(
+                f"A tesztkérdésnek pontosan 4 válaszlehetőséggel kell rendelkeznie: #{current_question['id']}"
+            )
+        if correct_count != 1:
+            raise ValueError(
+                f"A tesztkérdésnek pontosan 1 helyes válasza lehet: #{current_question['id']}"
+            )
+        if not current_question.get("explanation"):
+            raise ValueError(f"Hiányzik az indoklás a tesztkérdéshez: #{current_question['id']}")
+
+        questions.append(current_question)
+        current_question = None
+
+    for raw_line in extract_docx_lines(test_bank_path):
+        line = normalize_text(raw_line)
+        if not line:
+            continue
+        if line.startswith("Vezetés és szervezés") or line.startswith("110 db") or line.startswith("Jelölés:"):
+            continue
+
+        package_match = package_pattern.match(line)
+        if package_match:
+            current_package = package_match.group("title").strip()
+            continue
+
+        question_match = question_pattern.match(line)
+        if question_match:
+            flush_question()
+            current_question = {
+                "id": int(question_match.group("id")),
+                "prompt": question_match.group("prompt").strip(),
+                "package": current_package,
+                "options": [],
+                "explanation": "",
+            }
+            continue
+
+        option_match = option_pattern.match(line)
+        if option_match and current_question:
+            current_question["options"].append(
+                {
+                    "label": option_match.group("label").lower(),
+                    "text": option_match.group("text").strip(),
+                    "isCorrect": bool(option_match.group("correct")),
+                }
+            )
+            continue
+
+        explanation_match = explanation_pattern.match(line)
+        if explanation_match and current_question:
+            current_question["explanation"] = explanation_match.group("text").strip()
+            continue
+
+        if current_question and not current_question["options"]:
+            current_question["prompt"] = normalize_text(
+                f"{current_question['prompt']} {line}"
+            )
+
+    flush_question()
+
+    return {
+        "sourcePath": str(test_bank_path),
+        "selectionCount": QUIZ_SELECTION_COUNT,
+        "questionCount": len(questions),
+        "questions": questions,
+    }
 
 
 def keyword_match_count(keyword: str, corpus: str) -> int:
@@ -708,6 +832,7 @@ def build_payload(
     ocr_path: Path,
     book_path: Path | None,
     book_share_url: str | None,
+    quiz_bank: dict,
 ) -> dict:
     diagnostics = {
         str(topic["id"]): build_topic_diagnostics(topic, support_corpus, ocr_corpus)
@@ -727,6 +852,7 @@ def build_payload(
         "bookPath": str(book_path) if book_path else None,
         "bookUrl": book_path.as_uri() if book_path else None,
         "bookShareUrl": book_share_url,
+        "quizBank": quiz_bank,
         "supportingSources": support_sources,
         "ocrPageCount": ocr_page_count,
         "diagnostics": {
@@ -748,6 +874,8 @@ def main() -> None:
     ocr_page_count, ocr_corpus = load_ocr_corpus(args.ocr_path)
     book_path = resolve_book_pdf(args.source_dir)
     book_share_url = resolve_shareable_book_url(book_path)
+    test_bank_path = resolve_test_bank_docx(args.source_dir, args.test_bank)
+    quiz_bank = parse_quiz_bank(test_bank_path)
 
     payload = build_payload(
         topics=topics,
@@ -759,6 +887,7 @@ def main() -> None:
         ocr_path=args.ocr_path,
         book_path=book_path,
         book_share_url=book_share_url,
+        quiz_bank=quiz_bank,
     )
 
     args.output.parent.mkdir(parents=True, exist_ok=True)
@@ -774,6 +903,8 @@ def main() -> None:
         print(f"Könyv PDF: {book_path}")
     if book_share_url:
         print(f"Megosztható könyv URL: {book_share_url}")
+    if quiz_bank["questionCount"]:
+        print(f"Tesztbank kérdések: {quiz_bank['questionCount']} ({quiz_bank['sourcePath']})")
     if payload["diagnostics"]["lowCoverageTopics"]:
         missing = ", ".join(
             f"#{item['id']}" for item in payload["diagnostics"]["lowCoverageTopics"]

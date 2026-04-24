@@ -88,7 +88,8 @@ def build_html(payload: dict) -> str:
     }
 
     body.sidebar-open,
-    body.sheet-open {
+    body.sheet-open,
+    body.quiz-open {
       overflow: hidden;
     }
 
@@ -416,13 +417,16 @@ def build_html(payload: dict) -> str:
       display: inline-flex;
       align-items: center;
       gap: 8px;
+      border: 0;
       padding: 11px 15px;
       border-radius: 999px;
       text-decoration: none;
       color: #fff;
       background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+      font: inherit;
       box-shadow: 0 14px 28px rgba(184, 93, 61, 0.26);
       font-weight: 700;
+      cursor: pointer;
       transition: transform 150ms ease, box-shadow 150ms ease, opacity 150ms ease;
     }
 
@@ -447,6 +451,15 @@ def build_html(payload: dict) -> str:
       font-size: 0.7rem;
       text-transform: uppercase;
       letter-spacing: 0.08em;
+    }
+
+    .quiz-link {
+      background: linear-gradient(135deg, var(--secondary), #16483f);
+      box-shadow: 0 14px 28px rgba(31, 97, 85, 0.24);
+    }
+
+    .quiz-link:hover {
+      box-shadow: 0 18px 30px rgba(31, 97, 85, 0.28);
     }
 
     .hero-card {
@@ -1167,6 +1180,239 @@ def build_html(payload: dict) -> str:
       box-shadow: 0 14px 26px rgba(31, 97, 85, 0.26);
     }
 
+    .quiz-sheet {
+      width: min(860px, 100%);
+    }
+
+    .quiz-card {
+      padding: 18px;
+      border-radius: 24px;
+      background: rgba(255, 255, 255, 0.88);
+      border: 1px solid rgba(31, 42, 39, 0.08);
+    }
+
+    .quiz-card-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      margin-bottom: 12px;
+      flex-wrap: wrap;
+    }
+
+    .quiz-package {
+      display: inline-flex;
+      align-items: center;
+      padding: 6px 11px;
+      border-radius: 999px;
+      background: rgba(184, 93, 61, 0.12);
+      color: var(--accent);
+      font-size: 0.78rem;
+      font-weight: 700;
+    }
+
+    .quiz-counter {
+      color: var(--muted);
+      font-size: 0.86rem;
+      font-weight: 700;
+    }
+
+    .quiz-question {
+      margin: 0;
+      font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+      font-size: clamp(1.3rem, 2.2vw, 1.75rem);
+      line-height: 1.35;
+      overflow-wrap: break-word;
+      hyphens: auto;
+    }
+
+    .quiz-options {
+      display: grid;
+      gap: 12px;
+      margin-top: 18px;
+    }
+
+    .quiz-option {
+      width: 100%;
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 14px;
+      align-items: start;
+      text-align: left;
+      border: 1px solid rgba(31, 42, 39, 0.1);
+      border-radius: 18px;
+      padding: 14px 15px;
+      background: rgba(255, 255, 255, 0.94);
+      color: inherit;
+      font: inherit;
+      cursor: pointer;
+      transition: transform 150ms ease, border-color 150ms ease, box-shadow 150ms ease, background 150ms ease;
+    }
+
+    .quiz-option:hover:not(:disabled) {
+      transform: translateY(-1px);
+      border-color: rgba(31, 97, 85, 0.24);
+      box-shadow: 0 14px 28px rgba(20, 31, 28, 0.08);
+    }
+
+    .quiz-option:disabled {
+      cursor: default;
+    }
+
+    .quiz-option-letter {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      display: inline-grid;
+      place-items: center;
+      background: rgba(31, 97, 85, 0.1);
+      color: var(--secondary);
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
+
+    .quiz-option-text {
+      line-height: 1.58;
+      overflow-wrap: break-word;
+      hyphens: auto;
+    }
+
+    .quiz-option.is-correct {
+      border-color: rgba(31, 97, 85, 0.3);
+      background: linear-gradient(180deg, rgba(31, 97, 85, 0.14), rgba(255, 255, 255, 0.96));
+    }
+
+    .quiz-option.is-correct .quiz-option-letter {
+      background: rgba(31, 97, 85, 0.2);
+      color: #114239;
+    }
+
+    .quiz-option.is-wrong {
+      border-color: rgba(184, 93, 61, 0.32);
+      background: linear-gradient(180deg, rgba(184, 93, 61, 0.16), rgba(255, 255, 255, 0.96));
+    }
+
+    .quiz-option.is-wrong .quiz-option-letter {
+      background: rgba(184, 93, 61, 0.2);
+      color: #7d3219;
+    }
+
+    .quiz-option.is-muted {
+      opacity: 0.74;
+    }
+
+    .quiz-feedback {
+      margin-top: 16px;
+      padding: 15px 16px;
+      border-radius: 18px;
+      border: 1px solid transparent;
+    }
+
+    .quiz-feedback strong {
+      display: block;
+      margin-bottom: 7px;
+      font-size: 0.84rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .quiz-feedback p {
+      margin: 0;
+      line-height: 1.65;
+      overflow-wrap: break-word;
+      hyphens: auto;
+    }
+
+    .quiz-feedback.is-correct {
+      background: linear-gradient(180deg, rgba(31, 97, 85, 0.12), rgba(255, 255, 255, 0.9));
+      border-color: rgba(31, 97, 85, 0.18);
+      color: #153e37;
+    }
+
+    .quiz-feedback.is-wrong {
+      background: linear-gradient(180deg, rgba(184, 93, 61, 0.16), rgba(255, 255, 255, 0.92));
+      border-color: rgba(184, 93, 61, 0.2);
+      color: #6d2f1b;
+    }
+
+    .quiz-actions {
+      gap: 12px;
+    }
+
+    .quiz-next[disabled] {
+      opacity: 0.48;
+      cursor: not-allowed;
+      box-shadow: none;
+    }
+
+    .quiz-close {
+      background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+      box-shadow: 0 14px 26px rgba(184, 93, 61, 0.26);
+    }
+
+    .quiz-results {
+      display: grid;
+      gap: 18px;
+    }
+
+    .quiz-result-card {
+      padding: 22px;
+      border-radius: 24px;
+      background: linear-gradient(180deg, rgba(31, 97, 85, 0.12), rgba(255, 255, 255, 0.92));
+      border: 1px solid rgba(31, 97, 85, 0.16);
+    }
+
+    .quiz-result-card h3 {
+      margin: 0 0 8px;
+      font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+      font-size: 1.45rem;
+    }
+
+    .quiz-score {
+      display: block;
+      font-family: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+      font-size: clamp(2.2rem, 5vw, 3.1rem);
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
+    .quiz-percent {
+      display: inline-flex;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.86);
+      font-weight: 700;
+      color: var(--secondary);
+    }
+
+    .quiz-result-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .quiz-result-stat {
+      padding: 15px 16px;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.84);
+      border: 1px solid rgba(31, 42, 39, 0.08);
+    }
+
+    .quiz-result-stat span {
+      display: block;
+      font-size: 0.76rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .quiz-result-stat strong {
+      font-size: 1.2rem;
+      color: var(--ink);
+    }
+
     @media (max-width: 1080px) {
       .hero-layout,
       .summary-grid,
@@ -1255,6 +1501,10 @@ def build_html(payload: dict) -> str:
         border-radius: 24px;
       }
 
+      .quiz-result-grid {
+        grid-template-columns: 1fr;
+      }
+
       .example-followup {
         grid-template-columns: 1fr;
       }
@@ -1312,6 +1562,7 @@ def build_html(payload: dict) -> str:
 
       <div class="topbar-actions">
         <span class="status-pill">Készítve: <strong>__GENERATED_AT__</strong></span>
+        <button id="quiz-button" class="book-link quiz-link is-disabled" type="button" title="Tesztkérdések betöltése">📝 Tesztkérdések</button>
         <a id="book-link" class="book-link is-disabled" href="#" aria-disabled="true" tabindex="-1" title="Könyv-link előkészítése">📘 Könyv</a>
       </div>
     </div>
@@ -1433,7 +1684,7 @@ def build_html(payload: dict) -> str:
         <button type="button" class="nav-button" id="next-button"></button>
       </div>
 
-      <p class="footer-note">A felület teljesen offline használható. A <strong>Könyv</strong> gomb a helyi PDF-et nyitja meg új lapon.</p>
+      <p class="footer-note">A felület teljesen offline használható. A <strong>Tesztkérdések</strong> gomb 15 random kérdést indít a tesztbankból, a <strong>Könyv</strong> gomb pedig a helyi PDF-et vagy a publikus könyvoldalt nyitja meg.</p>
     </section>
   </main>
 
@@ -1483,10 +1734,69 @@ def build_html(payload: dict) -> str:
     </div>
   </div>
 
+  <div class="sheet-overlay" id="quiz-overlay" aria-hidden="true">
+    <div class="study-sheet quiz-sheet" role="dialog" aria-modal="true" aria-labelledby="quiz-title">
+      <div class="sheet-header">
+        <button type="button" class="sheet-back" id="quiz-back">← Vissza</button>
+        <div class="sheet-progress" id="quiz-progress">Teszt</div>
+      </div>
+
+      <div id="quiz-stage">
+        <span class="section-label">Tesztkérdések</span>
+        <h2 class="sheet-title" id="quiz-title">VezSzerv mini teszt</h2>
+        <p class="sheet-intro" id="quiz-intro"></p>
+
+        <section class="quiz-card">
+          <div class="quiz-card-head">
+            <span class="quiz-package" id="quiz-package"></span>
+            <span class="quiz-counter" id="quiz-counter"></span>
+          </div>
+          <h3 class="quiz-question" id="quiz-question"></h3>
+          <div class="quiz-options" id="quiz-options"></div>
+          <div class="quiz-feedback" id="quiz-feedback" hidden>
+            <strong id="quiz-feedback-title"></strong>
+            <p id="quiz-feedback-text"></p>
+          </div>
+        </section>
+      </div>
+
+      <div class="quiz-results" id="quiz-results" hidden>
+        <span class="section-label">Eredmény</span>
+        <div class="quiz-result-card">
+          <h3>Mini teszt kiértékelés</h3>
+          <span class="quiz-score" id="quiz-score"></span>
+          <span class="quiz-percent" id="quiz-percent"></span>
+          <p class="sheet-intro" id="quiz-result-text"></p>
+        </div>
+
+        <div class="quiz-result-grid">
+          <div class="quiz-result-stat">
+            <span>Helyes válasz</span>
+            <strong id="quiz-correct-count"></strong>
+          </div>
+          <div class="quiz-result-stat">
+            <span>Hibás válasz</span>
+            <strong id="quiz-wrong-count"></strong>
+          </div>
+          <div class="quiz-result-stat">
+            <span>Kérdésszám</span>
+            <strong id="quiz-total-count"></strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="sheet-actions quiz-actions">
+        <button type="button" class="sheet-confirm quiz-next" id="quiz-next" disabled>Következő</button>
+        <button type="button" class="sheet-confirm quiz-close" id="quiz-close" hidden>Bezárás</button>
+      </div>
+    </div>
+  </div>
+
   <script id="topic-data" type="application/json">__TOPIC_DATA__</script>
   <script>
     const payload = JSON.parse(document.getElementById("topic-data").textContent);
     const topics = payload.topics || [];
+    const quizBank = payload.quizBank || { selectionCount: 15, questionCount: 0, questions: [] };
     const topicById = new Map(topics.map((topic) => [topic.id, topic]));
     const modules = Array.from(new Set(topics.map((topic) => topic.module)));
 
@@ -1494,6 +1804,8 @@ def build_html(payload: dict) -> str:
       filter: "",
       currentId: topics.length ? topics[0].id : null,
       activeStudyIndex: null,
+      quizSession: null,
+      quizResultsVisible: false,
     };
 
     const moduleList = document.getElementById("module-list");
@@ -1534,10 +1846,34 @@ def build_html(payload: dict) -> str:
     const sheetTrap = document.getElementById("sheet-trap");
     const sheetProgress = document.getElementById("sheet-progress");
     const sectionJumpButtons = document.querySelectorAll("[data-scroll-target]");
+    const quizButton = document.getElementById("quiz-button");
     const bookLink = document.getElementById("book-link");
+    const quizOverlay = document.getElementById("quiz-overlay");
+    const quizBack = document.getElementById("quiz-back");
+    const quizProgress = document.getElementById("quiz-progress");
+    const quizStage = document.getElementById("quiz-stage");
+    const quizResults = document.getElementById("quiz-results");
+    const quizTitle = document.getElementById("quiz-title");
+    const quizIntro = document.getElementById("quiz-intro");
+    const quizPackage = document.getElementById("quiz-package");
+    const quizCounter = document.getElementById("quiz-counter");
+    const quizQuestion = document.getElementById("quiz-question");
+    const quizOptions = document.getElementById("quiz-options");
+    const quizFeedback = document.getElementById("quiz-feedback");
+    const quizFeedbackTitle = document.getElementById("quiz-feedback-title");
+    const quizFeedbackText = document.getElementById("quiz-feedback-text");
+    const quizNext = document.getElementById("quiz-next");
+    const quizClose = document.getElementById("quiz-close");
+    const quizScore = document.getElementById("quiz-score");
+    const quizPercent = document.getElementById("quiz-percent");
+    const quizResultText = document.getElementById("quiz-result-text");
+    const quizCorrectCount = document.getElementById("quiz-correct-count");
+    const quizWrongCount = document.getElementById("quiz-wrong-count");
+    const quizTotalCount = document.getElementById("quiz-total-count");
 
     statusCount.textContent = String(topics.length);
     configureBookLink();
+    configureQuizButton();
 
     function escapeHtml(value) {
       return String(value)
@@ -1563,6 +1899,19 @@ def build_html(payload: dict) -> str:
       }
 
       return `${normalized.slice(0, limit).trimEnd()}...`;
+    }
+
+    function shuffleArray(items) {
+      const clone = [...items];
+      for (let index = clone.length - 1; index > 0; index -= 1) {
+        const swapIndex = Math.floor(Math.random() * (index + 1));
+        [clone[index], clone[swapIndex]] = [clone[swapIndex], clone[index]];
+      }
+      return clone;
+    }
+
+    function optionLetter(index) {
+      return String.fromCharCode(65 + index);
     }
 
     function configureBookLink() {
@@ -1597,6 +1946,206 @@ def build_html(payload: dict) -> str:
       bookLink.title = localUrl
         ? "A GitHub-változatban a könyv nincs beágyazva. Később külső könyv URL is megadható."
         : "Könyv PDF nem található.";
+    }
+
+    function configureQuizButton() {
+      const questionCount = Number(quizBank.questionCount || (quizBank.questions || []).length || 0);
+      quizButton.classList.remove("is-disabled");
+      quizButton.disabled = false;
+      quizButton.title = `Random ${Math.min(questionCount, Number(quizBank.selectionCount) || 15)} kérdés indítása a tesztbankból`;
+
+      if (questionCount) {
+        return;
+      }
+
+      quizButton.classList.add("is-disabled");
+      quizButton.disabled = true;
+      quizButton.title = "Tesztkérdések nem érhetők el.";
+    }
+
+    function createQuizSession() {
+      const availableQuestions = Array.isArray(quizBank.questions) ? quizBank.questions : [];
+      const selectionCount = Math.min(
+        Math.max(Number(quizBank.selectionCount) || 15, 1),
+        availableQuestions.length
+      );
+      const questions = shuffleArray(availableQuestions)
+        .slice(0, selectionCount)
+        .map((question) => ({
+          id: question.id,
+          prompt: question.prompt,
+          package: question.package || "",
+          explanation: question.explanation,
+          answerIndex: null,
+          answeredCorrectly: false,
+          options: shuffleArray(question.options || []).map((option, optionIndex) => ({
+            id: `${question.id}-${optionIndex}`,
+            text: option.text,
+            isCorrect: Boolean(option.isCorrect),
+          })),
+        }));
+
+      return {
+        currentIndex: 0,
+        correctAnswers: 0,
+        questions,
+      };
+    }
+
+    function closeQuizOverlay() {
+      state.quizSession = null;
+      state.quizResultsVisible = false;
+      quizOverlay.classList.remove("open");
+      quizOverlay.setAttribute("aria-hidden", "true");
+      document.body.classList.remove("quiz-open");
+    }
+
+    function openQuizOverlay() {
+      if (!quizBank.questions || !quizBank.questions.length) {
+        return;
+      }
+
+      closeStudySheet();
+      closeSidebar();
+      state.quizSession = createQuizSession();
+      state.quizResultsVisible = false;
+      renderQuizQuestion();
+      quizOverlay.classList.add("open");
+      quizOverlay.setAttribute("aria-hidden", "false");
+      document.body.classList.add("quiz-open");
+    }
+
+    function getCurrentQuizQuestion() {
+      if (!state.quizSession) {
+        return null;
+      }
+      return state.quizSession.questions[state.quizSession.currentIndex] || null;
+    }
+
+    function renderQuizQuestion() {
+      const session = state.quizSession;
+      const question = getCurrentQuizQuestion();
+      if (!session || !question) {
+        return;
+      }
+
+      state.quizResultsVisible = false;
+      quizStage.hidden = false;
+      quizResults.hidden = true;
+      quizClose.hidden = true;
+      quizNext.hidden = false;
+
+      const total = session.questions.length;
+      const currentNumber = session.currentIndex + 1;
+      const hasAnswered = Number.isInteger(question.answerIndex);
+      const selectedOption = hasAnswered ? question.options[question.answerIndex] : null;
+      const correctOption = question.options.find((option) => option.isCorrect) || null;
+
+      quizProgress.textContent = `Kérdés ${currentNumber} / ${total}`;
+      quizTitle.textContent = "VezSzerv mini teszt";
+      quizIntro.textContent = `${total} randomizált kérdés a megadott tesztbankból. A válaszok sorrendje minden körben megkeveredik.`;
+      quizPackage.textContent = question.package || "Tesztbank";
+      quizPackage.hidden = !question.package;
+      quizCounter.textContent = `Forráskérdés #${question.id}`;
+      quizQuestion.textContent = question.prompt;
+
+      quizOptions.innerHTML = question.options
+        .map((option, optionIndex) => {
+          const classes = ["quiz-option"];
+          if (hasAnswered) {
+            if (option.isCorrect) {
+              classes.push("is-correct");
+            } else if (question.answerIndex === optionIndex) {
+              classes.push("is-wrong");
+            } else {
+              classes.push("is-muted");
+            }
+          }
+
+          return `
+            <button
+              type="button"
+              class="${classes.join(" ")}"
+              data-quiz-option="${optionIndex}"
+              ${hasAnswered ? "disabled" : ""}
+            >
+              <span class="quiz-option-letter">${optionLetter(optionIndex)}</span>
+              <span class="quiz-option-text">${escapeHtml(option.text)}</span>
+            </button>
+          `;
+        })
+        .join("");
+
+      quizOptions.querySelectorAll("[data-quiz-option]").forEach((button) => {
+        button.addEventListener("click", () => submitQuizAnswer(Number(button.dataset.quizOption)));
+      });
+
+      if (hasAnswered && selectedOption && correctOption) {
+        const isCorrect = Boolean(selectedOption.isCorrect);
+        quizFeedback.hidden = false;
+        quizFeedback.className = `quiz-feedback ${isCorrect ? "is-correct" : "is-wrong"}`;
+        quizFeedbackTitle.textContent = isCorrect ? "Helyes válasz" : "Nem ez a helyes válasz";
+        quizFeedbackText.textContent = isCorrect
+          ? question.explanation
+          : `${question.explanation} A helyes válasz: ${correctOption.text}.`;
+      } else {
+        quizFeedback.hidden = true;
+        quizFeedback.className = "quiz-feedback";
+        quizFeedbackTitle.textContent = "";
+        quizFeedbackText.textContent = "";
+      }
+
+      quizNext.disabled = !hasAnswered;
+      quizNext.textContent = currentNumber === total ? "Eredmény" : "Következő";
+    }
+
+    function submitQuizAnswer(optionIndex) {
+      const session = state.quizSession;
+      const question = getCurrentQuizQuestion();
+      if (!session || !question || Number.isInteger(question.answerIndex)) {
+        return;
+      }
+
+      question.answerIndex = optionIndex;
+      question.answeredCorrectly = Boolean(question.options[optionIndex] && question.options[optionIndex].isCorrect);
+      if (question.answeredCorrectly) {
+        session.correctAnswers += 1;
+      }
+
+      renderQuizQuestion();
+    }
+
+    function showQuizResults() {
+      const session = state.quizSession;
+      if (!session) {
+        return;
+      }
+
+      state.quizResultsVisible = true;
+      quizStage.hidden = true;
+      quizResults.hidden = false;
+      quizNext.hidden = true;
+      quizClose.hidden = false;
+
+      const total = session.questions.length;
+      const correct = session.correctAnswers;
+      const wrong = total - correct;
+      const percent = total ? Math.round((correct / total) * 100) : 0;
+
+      quizProgress.textContent = "Eredmény";
+      quizScore.textContent = `${correct} / ${total}`;
+      quizPercent.textContent = `${percent}%`;
+      quizCorrectCount.textContent = String(correct);
+      quizWrongCount.textContent = String(wrong);
+      quizTotalCount.textContent = String(total);
+
+      if (percent >= 80) {
+        quizResultText.textContent = "Erős eredmény. Már közel vagy a biztos vizsgateljesítéshez, érdemes még a hibás kérdéseket gyorsan átnézni.";
+      } else if (percent >= 60) {
+        quizResultText.textContent = "Jó alapok vannak meg. A következő körben főleg a bizonytalan vagy hibás kérdések indoklásait érdemes átismételni.";
+      } else {
+        quizResultText.textContent = "Van még mit erősíteni. Érdemes visszamenni a kapcsolódó témákhoz, majd újabb random tesztkört indítani.";
+      }
     }
 
     function getCurrentTopic() {
@@ -1865,6 +2414,29 @@ def build_html(payload: dict) -> str:
     overlay.addEventListener("click", closeSidebar);
     sheetBack.addEventListener("click", closeStudySheet);
     sheetConfirm.addEventListener("click", closeStudySheet);
+    quizButton.addEventListener("click", openQuizOverlay);
+    quizBack.addEventListener("click", closeQuizOverlay);
+    quizNext.addEventListener("click", () => {
+      const session = state.quizSession;
+      if (!session) {
+        return;
+      }
+
+      if (state.quizResultsVisible) {
+        closeQuizOverlay();
+        return;
+      }
+
+      const isLastQuestion = session.currentIndex === session.questions.length - 1;
+      if (isLastQuestion) {
+        showQuizResults();
+        return;
+      }
+
+      session.currentIndex += 1;
+      renderQuizQuestion();
+    });
+    quizClose.addEventListener("click", closeQuizOverlay);
     sectionJumpButtons.forEach((button) => {
       button.addEventListener("click", () => {
         const targetId = button.dataset.scrollTarget;
@@ -1877,6 +2449,11 @@ def build_html(payload: dict) -> str:
     sheetOverlay.addEventListener("click", (event) => {
       if (event.target === sheetOverlay) {
         closeStudySheet();
+      }
+    });
+    quizOverlay.addEventListener("click", (event) => {
+      if (event.target === quizOverlay) {
+        closeQuizOverlay();
       }
     });
 
@@ -1898,6 +2475,14 @@ def build_html(payload: dict) -> str:
         if (event.key === "Escape") {
           event.preventDefault();
           closeStudySheet();
+        }
+        return;
+      }
+
+      if (quizOverlay.classList.contains("open")) {
+        if (event.key === "Escape") {
+          event.preventDefault();
+          closeQuizOverlay();
         }
         return;
       }

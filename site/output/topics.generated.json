@@ -1,10 +1,3097 @@
 {
-  "generatedAt": "2026-04-24T12:34:36.338018+00:00",
+  "generatedAt": "2026-04-24T17:12:37.609779+00:00",
   "sourceFolder": "C:\\Users\\krist\\OneDrive\\Dokumentumok\\vezsz",
   "ocrPath": "C:\\Users\\krist\\Documents\\Codex\\2026-04-23-files-mentioned-by-the-user-vezszerv\\output\\book-ocr-smoke.json",
   "bookPath": "C:\\Users\\krist\\OneDrive\\Dokumentumok\\vezsz\\VezSzerv Teljes KönyvA.pdf",
   "bookUrl": "file:///C:/Users/krist/OneDrive/Dokumentumok/vezsz/VezSzerv%20Teljes%20K%C3%B6nyvA.pdf",
   "bookShareUrl": "https://mersz.hu/kiadvany/147/",
+  "quizBank": {
+    "sourcePath": "C:\\Users\\krist\\OneDrive\\Dokumentumok\\vezsz\\vezsz_megertes_kerdesek_indoklassal.docx",
+    "selectionCount": 15,
+    "questionCount": 110,
+    "questions": [
+      {
+        "id": 1,
+        "prompt": "Egy szervezet olcsón és gyorsan gyárt, de a vevők nem azt kapják, amire szükségük van. Melyik értékelés a legpontosabb?",
+        "package": "alap vezetés-szervezési megértés",
+        "options": [
+          {
+            "label": "a",
+            "text": "Eredményes és hatékony",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Hatékony, de nem eredményes",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Eredményes, de nem hatékony",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Sem hatékony, sem eredményes",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A működés erőforrás-felhasználása jó, de a szervezet nem a megfelelő vevői vagy céloldali eredményt éri el."
+      },
+      {
+        "id": 2,
+        "prompt": "Miért nem elegendő önmagában a hatékonyság egy szervezet sikeréhez?",
+        "package": "alap vezetés-szervezési megértés",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert a hatékonyság csak a dolgozók elégedettségét méri",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert a hatékonyság mindig költségnövekedést okoz",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert lehet jól felhasználni az erőforrásokat rossz célok érdekében",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Mert a hatékonyság kizárólag pénzügyi mutató",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert lehet jól felhasználni az erőforrásokat rossz célok érdekében."
+      },
+      {
+        "id": 3,
+        "prompt": "Egy vezető pontos célokat határoz meg, majd feladatokat oszt ki, később pedig ellenőrzi az eredményeket. Ez leginkább azt mutatja, hogy:",
+        "package": "alap vezetés-szervezési megértés",
+        "options": [
+          {
+            "label": "a",
+            "text": "a vezetési funkciók egymásra épülnek",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "a vezetés csak ellenőrzésből áll",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "a szervezés fontosabb, mint a tervezés",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "a vezetés független a céloktól",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert ez fejezi ki legpontosabban a kérdésben szereplő vezetés-szervezési fogalmat: a vezetési funkciók egymásra épülnek."
+      },
+      {
+        "id": 4,
+        "prompt": "Miért fontos a visszacsatolás a vezetési folyamatban?",
+        "package": "alap vezetés-szervezési megértés",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert kiváltja a tervezést",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert megmutatja, hogy szükséges-e korrekció",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert megszünteti a szervezeti konfliktusokat",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert csökkenti a vezető felelősségét",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert megmutatja, hogy szükséges-e korrekció."
+      },
+      {
+        "id": 5,
+        "prompt": "Egy vezető döntést hoz úgy, hogy nincs minden információ birtokában, de az időnyomás miatt választania kell. Ez melyik fogalomhoz kapcsolódik leginkább?",
+        "package": "alap vezetés-szervezési megértés",
+        "options": [
+          {
+            "label": "a",
+            "text": "Teljes racionalitás",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Programozott döntés",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Korlátozott racionalitás",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Biztonság melletti döntés",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A döntéshozó nem rendelkezik teljes információval, és az idő vagy a feldolgozási kapacitás is korlátozza."
+      },
+      {
+        "id": 6,
+        "prompt": "Miért lehet veszélyes, ha egy csoportban mindenki túl gyorsan egyetért?",
+        "package": "alap vezetés-szervezési megértés",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert túl sok alternatíva keletkezik",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert kialakulhat groupthink, és elmaradhat a kritikus gondolkodás",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert a döntés biztosan túl lassú lesz",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert a csoport nem tud normákat kialakítani",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert kialakulhat groupthink, és elmaradhat a kritikus gondolkodás."
+      },
+      {
+        "id": 7,
+        "prompt": "Egy vállalat új terméket vezet be, mert a versenytársak árban erősebbek. Ez milyen stratégiai logikára utalhat?",
+        "package": "alap vezetés-szervezési megértés",
+        "options": [
+          {
+            "label": "a",
+            "text": "Költségvezető stratégia",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Differenciálási stratégia",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Kivonulási stratégia",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Centralizációs stratégia",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A vállalat nem árban próbál versenyezni, hanem egyedi értéket vagy megkülönböztető terméket kínál."
+      },
+      {
+        "id": 8,
+        "prompt": "Miért nem mindig előnyös a centralizált döntéshozatal?",
+        "package": "alap vezetés-szervezési megértés",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert lassíthatja a helyi problémákra adott reakciót",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "Mert teljesen megszünteti a kontrollt",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert mindig növeli a konfliktusokat",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert nem teszi lehetővé a vezetői döntéseket",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert lassíthatja a helyi problémákra adott reakciót."
+      },
+      {
+        "id": 9,
+        "prompt": "Egy dinamikus, gyorsan változó környezetben működő cégnek miért lehet előnyösebb az organikus struktúra?",
+        "package": "alap vezetés-szervezési megértés",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert több szabályt és merevebb hierarchiát biztosít",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert kizárja az informális kommunikációt",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert rugalmasabb alkalmazkodást tesz lehetővé",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Mert minden döntést a felsővezetéshez visz",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert rugalmasabb alkalmazkodást tesz lehetővé."
+      },
+      {
+        "id": 10,
+        "prompt": "Herzberg elmélete alapján miért nem biztos, hogy a fizetésemelés önmagában tartós motivációt eredményez?",
+        "package": "alap vezetés-szervezési megértés",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert a fizetés inkább higiénés tényező, hiánya elégedetlenséget okoz, de önmagában nem feltétlenül motivál tartósan",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "Mert a fizetés mindig motivátor",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert a fizetésnek nincs kapcsolata az elégedettséggel",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert Herzberg szerint csak a büntetés motivál",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a fizetés inkább higiénés tényező, hiánya elégedetlenséget okoz, de önmagában nem feltétlenül motivál tartósan."
+      },
+      {
+        "id": 11,
+        "prompt": "Vroom elváráselmélete szerint mikor lesz magasabb a dolgozó motivációja?",
+        "package": "alap vezetés-szervezési megértés",
+        "options": [
+          {
+            "label": "a",
+            "text": "Ha a vezető kizárólag ellenőriz",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Ha a jutalom független a teljesítménytől",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Ha hisz abban, hogy erőfeszítése teljesítményhez, a teljesítmény pedig jutalomhoz vezet",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Ha a célok homályosak, de a fizetés magas",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert ez fejezi ki legpontosabban a kérdésben szereplő vezetés-szervezési fogalmat: Ha hisz abban, hogy erőfeszítése teljesítményhez, a teljesítmény pedig jutalomhoz vezet."
+      },
+      {
+        "id": 12,
+        "prompt": "Miért fontos a kommunikációban a visszacsatolás?",
+        "package": "alap vezetés-szervezési megértés",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert az üzenetet hosszabbá teszi",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert segít ellenőrizni, hogy a vevő valóban megértette-e az üzenetet",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert megszünteti a szervezeti hierarchiát",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert kiváltja a csatorna kiválasztását",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert segít ellenőrizni, hogy a vevő valóban megértette-e az üzenetet."
+      },
+      {
+        "id": 13,
+        "prompt": "Egy vezető demokratikus stílust alkalmaz egy tapasztalt, kreatív csapatnál. Miért lehet ez megfelelő?",
+        "package": "alap vezetés-szervezési megértés",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert a bevonás növelheti az elkötelezettséget és a jobb ötletek megjelenését",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "Mert a demokratikus stílus mindig gyorsabb, mint az autokratikus",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert így nincs szükség döntésre",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert a demokratikus stílus kizárja a konfliktust",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a bevonás növelheti az elkötelezettséget és a jobb ötletek megjelenését."
+      },
+      {
+        "id": 14,
+        "prompt": "A kontingenciaelmélet alapján miért hibás azt mondani, hogy „mindig a demokratikus vezetés a legjobb”?",
+        "package": "alap vezetés-szervezési megértés",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert a demokratikus vezetés sosem működik",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert csak az autokratikus vezetés eredményes",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert a megfelelő vezetési stílus a helyzettől függ",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Mert a vezetési stílus nem befolyásolja a teljesítményt",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a megfelelő vezetési stílus a helyzettől függ."
+      },
+      {
+        "id": 15,
+        "prompt": "Egy szervezetben erős közös értékek vannak, de ezek akadályozzák az újításokat. Mit mutat ez?",
+        "package": "alap vezetés-szervezési megértés",
+        "options": [
+          {
+            "label": "a",
+            "text": "Az erős kultúra mindig előnyös",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Az erős kultúra támogathatja, de gátolhatja is a változást",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "A szervezeti kultúrának nincs hatása az innovációra",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "A kultúra csak formális szabályokból áll",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a leírt helyzet leginkább ehhez a fogalomhoz vagy jelenséghez illeszkedik: Az erős kultúra támogathatja, de gátolhatja is a változást."
+      },
+      {
+        "id": 16,
+        "prompt": "Miért lehet káros a túlzott kontroll?",
+        "package": "alap vezetés-szervezési megértés",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert megszünteti a teljesítménymérést",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert mindig növeli az innovációt",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert csökkentheti az önállóságot és a motivációt",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Mert lehetetlenné teszi a célok kijelölését",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert csökkentheti az önállóságot és a motivációt."
+      },
+      {
+        "id": 17,
+        "prompt": "Egy vállalat új rendszert vezet be, de a dolgozók félnek attól, hogy elveszítik megszokott munkamódszereiket. Ez milyen jelenség?",
+        "package": "alap vezetés-szervezési megértés",
+        "options": [
+          {
+            "label": "a",
+            "text": "Változással szembeni ellenállás",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "Kettős alárendeltség",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Funkcionális konfliktus hiánya",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Korlátlan racionalitás",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a leírt helyzet leginkább ehhez a fogalomhoz vagy jelenséghez illeszkedik: Változással szembeni ellenállás."
+      },
+      {
+        "id": 18,
+        "prompt": "Miért fontos Lewin modelljében a „felolvasztás” szakasza?",
+        "package": "alap vezetés-szervezési megértés",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert ekkor stabilizálják az új működést",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert előkészíti a szervezetet a változás elfogadására",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert ekkor megszűnik minden ellenállás",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert ez a kontroll utolsó lépése",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert előkészíti a szervezetet a változás elfogadására."
+      },
+      {
+        "id": 19,
+        "prompt": "Egy konfliktus új ötleteket hoz felszínre, és javítja a döntés minőségét. Ez leginkább:",
+        "package": "alap vezetés-szervezési megértés",
+        "options": [
+          {
+            "label": "a",
+            "text": "diszfunkcionális konfliktus",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "funkcionális konfliktus",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "groupthink",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "szervezeti zaj",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert ez fejezi ki legpontosabban a kérdésben szereplő vezetés-szervezési fogalmat: funkcionális konfliktus."
+      },
+      {
+        "id": 20,
+        "prompt": "Miért nem tekinthető minden konfliktus károsnak?",
+        "package": "alap vezetés-szervezési megértés",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert a konfliktus mindig gyors döntést eredményez",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert a konfliktus megszünteti a vezető szerepét",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert bizonyos konfliktusok javíthatják a problémamegoldást és az innovációt",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Mert a konfliktus mindig csökkenti a teljesítményt",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert bizonyos konfliktusok javíthatják a problémamegoldást és az innovációt."
+      },
+      {
+        "id": 21,
+        "prompt": "Egy vezető azért tudja elfogadtatni a döntését, mert a beosztottak szakmailag nagyon felkészültnek tartják. Milyen hatalmi forrás ez?",
+        "package": "hatalom, környezet, teljesítmény, projekt, digitalizáció",
+        "options": [
+          {
+            "label": "a",
+            "text": "Legitim hatalom",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Szakértői hatalom",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Kényszerítő hatalom",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Jutalmazó hatalom",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A befolyás alapja itt a vezető vagy személy szakmai tudása és tapasztalata."
+      },
+      {
+        "id": 22,
+        "prompt": "Miért nem azonos a hatalom és a formális pozíció?",
+        "package": "hatalom, környezet, teljesítmény, projekt, digitalizáció",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert hatalom csak vezetőknél létezhet",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert a pozíció mindig erősebb, mint a tudás",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert befolyás informális forrásból, például szakértelemből vagy személyes vonzerőből is eredhet",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Mert a hatalom kizárólag jutalmazásból származik",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert befolyás informális forrásból, például szakértelemből vagy személyes vonzerőből is eredhet."
+      },
+      {
+        "id": 23,
+        "prompt": "Egy vállalat a technológiai, politikai és társadalmi változásokat vizsgálja, mielőtt stratégiát alkot. Milyen elemzést végez?",
+        "package": "hatalom, környezet, teljesítmény, projekt, digitalizáció",
+        "options": [
+          {
+            "label": "a",
+            "text": "PEST-elemzést",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "Munkakörelemzést",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Balanced Scorecard elemzést",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Kritikus út elemzést",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A PEST a politikai, gazdasági, társadalmi és technológiai külső tényezőket vizsgálja."
+      },
+      {
+        "id": 24,
+        "prompt": "Miért növeli a környezeti bizonytalanság a vezetői döntések nehézségét?",
+        "package": "hatalom, környezet, teljesítmény, projekt, digitalizáció",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert ilyenkor minden kimenet pontosan ismert",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert nehezebb előre jelezni a változásokat és azok hatásait",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert a szervezetnek nincs szüksége stratégiára",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert megszűnik a verseny",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert nehezebb előre jelezni a változásokat és azok hatásait."
+      },
+      {
+        "id": 25,
+        "prompt": "Egy vállalat kizárólag pénzügyi eredményeket mér, miközben romlik a vevői elégedettség és a belső folyamatok minősége. Melyik eszköz segítene kiegyensúlyozottabban mérni?",
+        "package": "hatalom, környezet, teljesítmény, projekt, digitalizáció",
+        "options": [
+          {
+            "label": "a",
+            "text": "Maximin döntési szabály",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "JIT-rendszer",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Balanced Scorecard",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Lewin-modell",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A Balanced Scorecard nemcsak pénzügyi, hanem vevői, folyamat- és tanulási szempontokat is figyelembe vesz."
+      },
+      {
+        "id": 26,
+        "prompt": "Miért lehet félrevezető, ha a szervezeti teljesítményt csak profittal mérjük?",
+        "package": "hatalom, környezet, teljesítmény, projekt, digitalizáció",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert a hosszú távú teljesítményt vevői, folyamati és tanulási mutatók is befolyásolják",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "Mert a profit nem pénzügyi mutató",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert a profit kizárólag a szervezeti kultúrát méri",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert a profit mindig független a teljesítménytől",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a hosszú távú teljesítményt vevői, folyamati és tanulási mutatók is befolyásolják."
+      },
+      {
+        "id": 27,
+        "prompt": "Egy stabil, kiszámítható környezetben működő gyár sok szabállyal és világos hierarchiával működik jól. Ez milyen szervezeti forma logikája?",
+        "package": "hatalom, környezet, teljesítmény, projekt, digitalizáció",
+        "options": [
+          {
+            "label": "a",
+            "text": "Organikus szervezet",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mechanikus szervezet",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Projektalapú szervezet",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Informális szervezet",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Stabil környezetben a szabályozottság, formalizáltság és hierarchia hatékony működést adhat."
+      },
+      {
+        "id": 28,
+        "prompt": "Miért nem lenne ideális egy erősen mechanikus struktúra gyorsan változó piacon?",
+        "package": "hatalom, környezet, teljesítmény, projekt, digitalizáció",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert túl kevés szabályt tartalmaz",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert túlzottan decentralizált",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert merevsége miatt lassabban alkalmazkodhat",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Mert nem tartalmaz hierarchiát",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert merevsége miatt lassabban alkalmazkodhat."
+      },
+      {
+        "id": 29,
+        "prompt": "Egy döntéshozó a legrosszabb lehetséges kimenetek közül választja azt az alternatívát, amelyik a legkevésbé rossz. Melyik döntési szabályt használja?",
+        "package": "hatalom, környezet, teljesítmény, projekt, digitalizáció",
+        "options": [
+          {
+            "label": "a",
+            "text": "Maximin",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "Maximax",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Minimax regret",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Várható érték",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Ez a szabály a legrosszabb kimenetek közül választja a legkedvezőbbet, vagyis óvatos döntési logikát követ."
+      },
+      {
+        "id": 30,
+        "prompt": "Mikor indokolt inkább várható értéket számítani, mint maximin szabályt alkalmazni?",
+        "package": "hatalom, környezet, teljesítmény, projekt, digitalizáció",
+        "options": [
+          {
+            "label": "a",
+            "text": "Ha semmilyen valószínűség nem ismert",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Ha a kimenetek valószínűsége ismert vagy becsülhető",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Ha kizárólag intuíció alapján döntünk",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Ha nincs több alternatíva",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert ez fejezi ki legpontosabban a kérdésben szereplő vezetés-szervezési fogalmat: Ha a kimenetek valószínűsége ismert vagy becsülhető."
+      },
+      {
+        "id": 31,
+        "prompt": "Egy munkatárs sok év tapasztalatával „érzi”, hogyan kell kezelni az ügyfeleket, de ezt nehezen tudja leírni szabályokban. Ez milyen tudás?",
+        "package": "hatalom, környezet, teljesítmény, projekt, digitalizáció",
+        "options": [
+          {
+            "label": "a",
+            "text": "Explicit tudás",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Tacit tudás",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Formális szabály",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Pénzügyi adat",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A tacit tudás tapasztalati, nehezen formalizálható és gyakran személyes gyakorlatban jelenik meg."
+      },
+      {
+        "id": 32,
+        "prompt": "Miért fontos a tacit tudás megosztása a szervezetben?",
+        "package": "hatalom, környezet, teljesítmény, projekt, digitalizáció",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert könnyen másolható minden dokumentumból",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert kizárólag vezetőknél létezik",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert értékes tapasztalatot hordoz, amely javíthatja a működést",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Mert nincs hatása a teljesítményre",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert értékes tapasztalatot hordoz, amely javíthatja a működést."
+      },
+      {
+        "id": 33,
+        "prompt": "Egy projektben egy tevékenység késése az egész projekt végét késlelteti. Ez mire utal?",
+        "package": "hatalom, környezet, teljesítmény, projekt, digitalizáció",
+        "options": [
+          {
+            "label": "a",
+            "text": "Ez biztosan nem fontos tevékenység",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "A tevékenység a kritikus úton van",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "A projekt már lezárult",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "A tevékenység csak opcionális",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A kritikus úton lévő tevékenység késése közvetlenül késlelteti a teljes projekt befejezését."
+      },
+      {
+        "id": 34,
+        "prompt": "Miért fontos a projekt háromszögének figyelembevétele?",
+        "package": "hatalom, környezet, teljesítmény, projekt, digitalizáció",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert az idő, költség és minőség egymástól teljesen független",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert az egyik elem módosítása hatással lehet a másik kettőre",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert csak a költség számít",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert a projektnek nincs határideje",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert az egyik elem módosítása hatással lehet a másik kettőre."
+      },
+      {
+        "id": 35,
+        "prompt": "Egy vállalat környezetbarát csomagolást vezet be, miközben figyel a költségekre és a társadalmi megítélésre is. Ez melyik szemlélethez illeszkedik leginkább?",
+        "package": "hatalom, környezet, teljesítmény, projekt, digitalizáció",
+        "options": [
+          {
+            "label": "a",
+            "text": "Csak pénzügyi kontroll",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Fenntarthatósági szemlélet",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Kényszerítő hatalom",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Maximin döntés",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A döntés egyszerre kezeli a gazdasági, társadalmi és környezeti szempontokat."
+      },
+      {
+        "id": 36,
+        "prompt": "Miért nem helyes a fenntarthatóságot kizárólag környezetvédelemként értelmezni?",
+        "package": "hatalom, környezet, teljesítmény, projekt, digitalizáció",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert a fenntarthatóság csak profitról szól",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert a környezetvédelem nem része a fenntarthatóságnak",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert gazdasági, társadalmi és környezeti szempontokat egyaránt tartalmaz",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Mert csak jogi fogalom",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert gazdasági, társadalmi és környezeti szempontokat egyaránt tartalmaz."
+      },
+      {
+        "id": 37,
+        "prompt": "Egy vállalat online platformra helyezi át szolgáltatásait, és adatvezérelt döntéseket vezet be. Ez inkább:",
+        "package": "hatalom, környezet, teljesítmény, projekt, digitalizáció",
+        "options": [
+          {
+            "label": "a",
+            "text": "egyszerű formalizálás",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "digitális transzformáció",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "kizárólag pénzügyi kontroll",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "hierarchiaszűkítés",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Itt nem pusztán technika használatáról van szó, hanem a működés és döntéshozatal átalakításáról."
+      },
+      {
+        "id": 38,
+        "prompt": "Miért nem azonos a digitalizáció azzal, hogy „van számítógép a cégnél”?",
+        "package": "hatalom, környezet, teljesítmény, projekt, digitalizáció",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert a digitalizáció a működés és döntéshozatal átalakulását is jelentheti",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "Mert a digitalizáció kizárólag papíralapú működés",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert számítógép mellett nincs adat",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert nem érinti a szervezetet",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a digitalizáció a működés és döntéshozatal átalakulását is jelentheti."
+      },
+      {
+        "id": 39,
+        "prompt": "Egy vállalat biztosítást köt egy jelentős működési kockázatra. Milyen kockázatkezelési módot alkalmaz?",
+        "package": "hatalom, környezet, teljesítmény, projekt, digitalizáció",
+        "options": [
+          {
+            "label": "a",
+            "text": "Kockázat elfogadása",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Kockázat növelése",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Kockázat áthárítása",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Kockázat figyelmen kívül hagyása",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A biztosítás tipikus módja annak, hogy a kockázat pénzügyi következményének egy részét más szereplő viselje."
+      },
+      {
+        "id": 40,
+        "prompt": "Miért nem igaz, hogy a kockázat mindig kizárólag negatív?",
+        "package": "hatalom, környezet, teljesítmény, projekt, digitalizáció",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert a kockázat mindig biztos veszteség",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert a kockázat eltérést jelenthet a várttól, amely kedvező és kedvezőtlen is lehet",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert a kockázat nem kapcsolódik döntéshez",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert kockázat csak pénzügyben létezik",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a kockázat eltérést jelenthet a várttól, amely kedvező és kedvezőtlen is lehet."
+      },
+      {
+        "id": 41,
+        "prompt": "Egy vállalat hibás termékeket gyárt, majd a végén kiszűri őket ellenőrzéssel. Miért lenne jobb a minőségbiztosítás szemlélete?",
+        "package": "minőség, logisztika, marketing, pénzügy, termelés, információ",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert az ellenőrzés mindig felesleges",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert a hibák megelőzésére koncentrál, nem csak utólagos kiszűrésükre",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert csak a reklámot javítja",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert kizárólag a pénzügyi osztály feladata",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a hibák megelőzésére koncentrál, nem csak utólagos kiszűrésükre."
+      },
+      {
+        "id": 42,
+        "prompt": "Miért tekinthető a TQM szervezeti szemléletnek, nem pusztán ellenőrzési technikának?",
+        "package": "minőség, logisztika, marketing, pénzügy, termelés, információ",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert a teljes szervezetet és a folyamatos fejlesztést érinti",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "Mert csak a gyártósor végén használható",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert kizárólag a vezetők minőségét méri",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert nem kapcsolódik a vevői elégedettséghez",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a teljes szervezetet és a folyamatos fejlesztést érinti."
+      },
+      {
+        "id": 43,
+        "prompt": "Egy cég Just in Time rendszert alkalmaz, de a beszállítói gyakran késnek. Mi a fő kockázat?",
+        "package": "minőség, logisztika, marketing, pénzügy, termelés, információ",
+        "options": [
+          {
+            "label": "a",
+            "text": "Túl magas készletszint",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Túl sok raktárkapacitás",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Készlethiány és termelésleállás",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Marketingköltség-növekedés",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert ez fejezi ki legpontosabban a kérdésben szereplő vezetés-szervezési fogalmat: Készlethiány és termelésleállás."
+      },
+      {
+        "id": 44,
+        "prompt": "Miért nem helyes a logisztikát csak szállításként értelmezni?",
+        "package": "minőség, logisztika, marketing, pénzügy, termelés, információ",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert a logisztikának nincs köze a szállításhoz",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert magában foglalja az anyag-, információ- és készletáramlás tervezését is",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert kizárólag pénzügyi döntés",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert csak a vevői reklámról szól",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert magában foglalja az anyag-, információ- és készletáramlás tervezését is."
+      },
+      {
+        "id": 45,
+        "prompt": "Egy vállalat sok vevőt ér el reklámmal, de nem tudja pontosan, kiknek szól a termék. Melyik marketinglépés hiányzik leginkább?",
+        "package": "minőség, logisztika, marketing, pénzügy, termelés, információ",
+        "options": [
+          {
+            "label": "a",
+            "text": "Célpiac meghatározása és szegmentáció",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "Készletcsökkentés",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Kritikus út elemzése",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Pénzügyi audit",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a leírt helyzet leginkább ehhez a fogalomhoz vagy jelenséghez illeszkedik: Célpiac meghatározása és szegmentáció."
+      },
+      {
+        "id": 46,
+        "prompt": "Miért nem azonos a marketing a reklámmal?",
+        "package": "minőség, logisztika, marketing, pénzügy, termelés, információ",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert a reklám nem része a marketingnek",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert a marketing kizárólag árképzés",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert a marketing a vevői igények feltárását, értékteremtést és a 4P-t is magában foglalja",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Mert a marketing csak belső szervezési kérdés",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a marketing a vevői igények feltárását, értékteremtést és a 4P-t is magában foglalja."
+      },
+      {
+        "id": 47,
+        "prompt": "Egy vállalat nagy bevételt ér el, de a költségei még gyorsabban nőnek. Mi következik ebből?",
+        "package": "minőség, logisztika, marketing, pénzügy, termelés, információ",
+        "options": [
+          {
+            "label": "a",
+            "text": "A profit biztosan nő",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "A profit csökkenhet, mert nem csak a bevétel, hanem a költség is számít",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "A vállalat biztosan hatékonyabb lett",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "A likviditás automatikusan javul",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert ez fejezi ki legpontosabban a kérdésben szereplő vezetés-szervezési fogalmat: A profit csökkenhet, mert nem csak a bevétel, hanem a költség is számít."
+      },
+      {
+        "id": 48,
+        "prompt": "Miért lehet veszélyes, ha egy vállalat csak profitot néz, cash flow-t nem?",
+        "package": "minőség, logisztika, marketing, pénzügy, termelés, információ",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert lehet nyereséges papíron, miközben fizetési nehézségei vannak",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "Mert a cash flow csak marketingmutató",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert a profit mindig megegyezik a készpénzzel",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert likviditásra nincs szükség",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert lehet nyereséges papíron, miközben fizetési nehézségei vannak."
+      },
+      {
+        "id": 49,
+        "prompt": "Egy üzem ugyanannyi inputból több outputot állít elő. Melyik mutató javult?",
+        "package": "minőség, logisztika, marketing, pénzügy, termelés, információ",
+        "options": [
+          {
+            "label": "a",
+            "text": "Likviditás",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Termelékenység",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Márkaérték",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Centralizáció",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A termelékenység akkor javul, ha azonos input mellett több output keletkezik, vagy ugyanannyi output kevesebb inputból jön létre."
+      },
+      {
+        "id": 50,
+        "prompt": "Miért fontos a kapacitás a termelés tervezésében?",
+        "package": "minőség, logisztika, marketing, pénzügy, termelés, információ",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert megmutatja, hogy maximum mennyit tud előállítani a rendszer",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert kizárólag az árképzést határozza meg",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert a kereslethez és erőforrásokhoz kell igazítani a termelési lehetőségeket",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Mert csak a marketingkampány idejét méri",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a kereslethez és erőforrásokhoz kell igazítani a termelési lehetőségeket."
+      },
+      {
+        "id": 51,
+        "prompt": "Egy adat önmagában csak annyi, hogy „120”. Mikor válik információvá?",
+        "package": "minőség, logisztika, marketing, pénzügy, termelés, információ",
+        "options": [
+          {
+            "label": "a",
+            "text": "Ha jelentést és értelmezési kontextust kap, például 120 db eladott termék",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "Ha véletlenül bekerül egy táblázatba",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Ha nem használják döntéshez",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Ha elveszíti a pontosságát",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert ez fejezi ki legpontosabban a kérdésben szereplő vezetés-szervezési fogalmat: Ha jelentést és értelmezési kontextust kap, például 120 db eladott termék."
+      },
+      {
+        "id": 52,
+        "prompt": "Miért okozhat gondot az információ-túlterhelés?",
+        "package": "minőség, logisztika, marketing, pénzügy, termelés, információ",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert ilyenkor nincs adat",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert a túl sok, rendezetlen információ lassíthatja vagy ronthatja a döntést",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert minden információ automatikusan hasznos",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert megszünteti a bizonytalanságot",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a túl sok, rendezetlen információ lassíthatja vagy ronthatja a döntést."
+      },
+      {
+        "id": 53,
+        "prompt": "Egy vezető minden apró feladatot maga végez el, ezért nem jut ideje stratégiai döntésekre. Melyik időmenedzsment-eszköz segíthetne?",
+        "package": "minőség, logisztika, marketing, pénzügy, termelés, információ",
+        "options": [
+          {
+            "label": "a",
+            "text": "Groupthink",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Maximin",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Delegálás",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Kényszerítő hatalom",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A delegálás felszabadítja a vezető idejét, és lehetővé teszi, hogy stratégiai feladatokra koncentráljon."
+      },
+      {
+        "id": 54,
+        "prompt": "Miért hasznos az Eisenhower-mátrix?",
+        "package": "minőség, logisztika, marketing, pénzügy, termelés, információ",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert minden feladatot egyformán kezel",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert kizárólag pénzügyi feladatokra használható",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert segít elkülöníteni a sürgős és fontos feladatokat",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Mert megszünteti a határidőket",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert segít elkülöníteni a sürgős és fontos feladatokat."
+      },
+      {
+        "id": 55,
+        "prompt": "Egy menedzser saját bónuszát növeli, miközben ez nem szolgálja a tulajdonosok érdekeit. Ez milyen probléma?",
+        "package": "minőség, logisztika, marketing, pénzügy, termelés, információ",
+        "options": [
+          {
+            "label": "a",
+            "text": "Ügynökprobléma",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "JIT probléma",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Minőségbiztosítás",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Szervezeti tanulás",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Ez a tulajdonosok és menedzserek érdekei közötti eltérést jelenti."
+      },
+      {
+        "id": 56,
+        "prompt": "Miért fontos az átláthatóság a vállalati kormányzásban?",
+        "package": "minőség, logisztika, marketing, pénzügy, termelés, információ",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert csökkenti az információs aszimmetriát és növeli az elszámoltathatóságot",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert minden döntést titkossá tesz",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert segíti, hogy az érintettek ellenőrizhessék a működést és a döntéseket",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Mert kizárólag marketingcélokat szolgál",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert segíti, hogy az érintettek ellenőrizhessék a működést és a döntéseket."
+      },
+      {
+        "id": 57,
+        "prompt": "Egy alsó szintű vezető közvetlenül irányítja a napi szakmai munkát. Melyik készség különösen fontos számára?",
+        "package": "minőség, logisztika, marketing, pénzügy, termelés, információ",
+        "options": [
+          {
+            "label": "a",
+            "text": "Technikai készség",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "Csak koncepcionális készség",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Csak részvényesi ismeret",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Csak exporttudás",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Alsó szinten a napi szakmai feladatok közvetlen irányítása miatt különösen fontos a szaktudás."
+      },
+      {
+        "id": 58,
+        "prompt": "Miért válik fontosabbá a koncepcionális készség felsővezetői szinten?",
+        "package": "minőség, logisztika, marketing, pénzügy, termelés, információ",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert ott már nincs szükség döntésekre",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert csak kézi munkát kell irányítani",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert átfogó összefüggéseket, stratégiát és környezeti hatásokat kell értelmezni",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Mert a felsővezetőnek nem kell emberekkel foglalkoznia",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert átfogó összefüggéseket, stratégiát és környezeti hatásokat kell értelmezni."
+      },
+      {
+        "id": 59,
+        "prompt": "Egy stratégia papíron kiváló, de a dolgozók nem értik, mit kellene másképp csinálniuk. Mi hiányzik leginkább a megvalósításból?",
+        "package": "minőség, logisztika, marketing, pénzügy, termelés, információ",
+        "options": [
+          {
+            "label": "a",
+            "text": "Kizárólag pénzügyi mutató",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Hatékony kommunikáció és lefordítás operatív feladatokra",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Több formalizált szabály minden helyzetre",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "A környezet teljes figyelmen kívül hagyása",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert ez fejezi ki legpontosabban a kérdésben szereplő vezetés-szervezési fogalmat: Hatékony kommunikáció és lefordítás operatív feladatokra."
+      },
+      {
+        "id": 60,
+        "prompt": "Miért tekinthető a szervezet nyitott rendszernek?",
+        "package": "minőség, logisztika, marketing, pénzügy, termelés, információ",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert teljesen független a környezetétől",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert inputokat vesz fel a környezetből, outputokat bocsát ki, és visszacsatolások hatnak rá",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert nincs szüksége erőforrásokra",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert csak belső szabályok alapján működik",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert inputokat vesz fel a környezetből, outputokat bocsát ki, és visszacsatolások hatnak rá."
+      },
+      {
+        "id": 61,
+        "prompt": "Egy vállalat új piacra lépne, de előtte felméri, hogy a belső képességei elegendőek-e a versenyhez. Melyik stratégiai elemzéshez kapcsolódik ez leginkább?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Csak PEST-elemzéshez",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "SWOT belső oldalához",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "JIT-rendszerhez",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Groupthinkhez",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A SWOT belső oldala az erősségeket és gyengeségeket, vagyis a szervezet saját képességeit vizsgálja."
+      },
+      {
+        "id": 62,
+        "prompt": "Miért nem elegendő a stratégiaalkotásnál csak a külső lehetőségeket figyelni?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert a lehetőségek kihasználásához belső erőforrásokra és képességekre is szükség van",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "Mert a külső környezet soha nem változik",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert a stratégia kizárólag pénzügyi számítás",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert a belső működés mindig független a stratégiától",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a lehetőségek kihasználásához belső erőforrásokra és képességekre is szükség van."
+      },
+      {
+        "id": 63,
+        "prompt": "Egy vállalat ugyanazt a terméket kínálja, mint versenytársai, de lényegesen alacsonyabb költséggel tud működni. Melyik versenystratégia illik rá leginkább?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Differenciálás",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Költségvezető stratégia",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Fókuszált differenciálás",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Változásmenedzsment",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A vállalat versenyelőnye itt az alacsonyabb költségszintből származik."
+      },
+      {
+        "id": 64,
+        "prompt": "Miért lehet kockázatos a differenciálási stratégia?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert nem igényel vevői igényismeretet",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert mindig olcsóbb, mint a költségvezetés",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert a vevők nem biztos, hogy hajlandók megfizetni az egyediséget",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Mert kizárja az innovációt",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a vevők nem biztos, hogy hajlandók megfizetni az egyediséget."
+      },
+      {
+        "id": 65,
+        "prompt": "Egy szervezet mátrixstruktúrát vezet be, mert egyszerre akar szakmai specializációt és projektalapú rugalmasságot. Mi lehet ennek fő hátránya?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "A szakértelem teljes megszűnése",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Kettős irányításból fakadó konfliktus",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "A kommunikáció teljes hiánya",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Az output mérhetetlensége",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert ez fejezi ki legpontosabban a kérdésben szereplő vezetés-szervezési fogalmat: Kettős irányításból fakadó konfliktus."
+      },
+      {
+        "id": 66,
+        "prompt": "Miért nem lehet minden szervezet számára ugyanazt a struktúrát ajánlani?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert a struktúra kizárólag a dolgozók számától függ",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert a stratégia és környezet nem számít",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert a megfelelő struktúra függ a céloktól, környezettől, mérettől és technológiától",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Mert a struktúra nem befolyásolja a működést",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a megfelelő struktúra függ a céloktól, környezettől, mérettől és technológiától."
+      },
+      {
+        "id": 67,
+        "prompt": "Egy dolgozó igazságtalannak érzi a jutalmazást, mert ugyanannyi munkáért kevesebbet kap, mint kollégája. Melyik motivációs elmélet magyarázza ezt legjobban?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Igazságosságelmélet",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "Maslow kizárólagos önmegvalósítási szintje",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Lewin modellje",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Kritikus út módszer",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Az elmélet szerint a dolgozók saját ráfordításaikat és jutalmaikat másokéhoz hasonlítják."
+      },
+      {
+        "id": 68,
+        "prompt": "Miért vezethet teljesítményromláshoz az észlelt igazságtalanság?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert a dolgozó mindig többet fog dolgozni",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert csökkentheti az erőfeszítést vagy növelheti az elégedetlenséget",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert automatikusan növeli a belső motivációt",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert megszünteti az összehasonlítást",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert csökkentheti az erőfeszítést vagy növelheti az elégedetlenséget."
+      },
+      {
+        "id": 69,
+        "prompt": "Egy üzenet szakmailag pontos, de a címzett félreérti a vezető hangnemét és védekezővé válik. Mit mutat ez?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "A kommunikáció csak tartalomból áll",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "A kommunikáció értelmezése nemcsak az információtól, hanem a kontextustól és nem verbális jelektől is függhet",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "A visszacsatolás szükségtelen",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "A zaj kizárólag technikai hiba lehet",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a leírt helyzet leginkább ehhez a fogalomhoz vagy jelenséghez illeszkedik: A kommunikáció értelmezése nemcsak az információtól, hanem a kontextustól és nem verbális jelektől is függhet."
+      },
+      {
+        "id": 70,
+        "prompt": "Miért lehet hatékonyabb egy kétirányú kommunikáció kritikus helyzetben?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert lassítja a megértést",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert kizárja a visszajelzést",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert lehetőséget ad kérdésekre, pontosításra és félreértések javítására",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Mert a vezetőnek így nem kell döntést hoznia",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert lehetőséget ad kérdésekre, pontosításra és félreértések javítására."
+      },
+      {
+        "id": 71,
+        "prompt": "Egy csoportban erős az összetartás, de emiatt a tagok nem mernek eltérő véleményt mondani. Milyen veszély jelenik meg?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Groupthink",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "Maximin döntés",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Feedforward kontroll",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Technikai készség",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Az erős összetartás miatt a kritikus vélemények elnyomódhatnak, ami ronthatja a döntés minőségét."
+      },
+      {
+        "id": 72,
+        "prompt": "Miért nem garantálja a magas csoportkohézió önmagában a jó teljesítményt?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert a kohézió mindig romboló",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert a csoportnormák iránya is számít: támogathatják vagy gátolhatják a teljesítményt",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert az összetartás rossz normákkal együtt gyenge teljesítményt is fenntarthat",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Mert kohézió csak formális csoportban létezik",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert az összetartás rossz normákkal együtt gyenge teljesítményt is fenntarthat."
+      },
+      {
+        "id": 73,
+        "prompt": "Egy vezető autokratikusan dönt válsághelyzetben, amikor gyors reagálás kell. Miért lehet ez indokolt?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert az autokratikus stílus minden helyzetben jobb",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert időnyomás alatt a gyors, egyértelmű döntés fontosabb lehet a bevonásnál",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert így biztosan nem lesz ellenállás",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert a beosztottak véleménye mindig káros",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert időnyomás alatt a gyors, egyértelmű döntés fontosabb lehet a bevonásnál."
+      },
+      {
+        "id": 74,
+        "prompt": "Miért lehet problémás a laissez-faire vezetés tapasztalatlan csapatnál?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert iránymutatás hiányában bizonytalanság és koordinációs zavar alakulhat ki",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "Mert túl sok vezetői kontrollt jelent",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert megszünteti az önállóságot",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert kizárja a kreativitást",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert iránymutatás hiányában bizonytalanság és koordinációs zavar alakulhat ki."
+      },
+      {
+        "id": 75,
+        "prompt": "Egy vállalat értékei hivatalosan innovációt hirdetnek, de a hibázást szigorúan büntetik. Mit jelez ez?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "A kultúra és a formális üzenetek mindig azonosak",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Rejtett normák akadályozhatják a deklarált célokat",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "A szervezeti kultúrának nincs hatása a viselkedésre",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Az innováció csak pénzügyi kérdés",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert ez fejezi ki legpontosabban a kérdésben szereplő vezetés-szervezési fogalmat: Rejtett normák akadályozhatják a deklarált célokat."
+      },
+      {
+        "id": 76,
+        "prompt": "Miért nehéz a szervezeti kultúrát gyorsan megváltoztatni?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert mélyen rögzült értékekből, normákból és alapfeltevésekből áll",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "Mert kizárólag logókból áll",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Mert nincs kapcsolatban a dolgozói viselkedéssel",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert csak írásos szabályokat kell átírni",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert mélyen rögzült értékekből, normákból és alapfeltevésekből áll."
+      },
+      {
+        "id": 77,
+        "prompt": "Egy cég a gyártás megkezdése előtt ellenőrzi az alapanyagok minőségét, hogy megelőzze a hibákat. Ez milyen kontroll?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Feedback kontroll",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Concurrent kontroll",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Feedforward kontroll",
+            "isCorrect": true
+          },
+          {
+            "label": "d",
+            "text": "Utólagos kontroll",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Az előzetes kontroll a folyamat megkezdése előtt próbálja megelőzni a hibákat."
+      },
+      {
+        "id": 78,
+        "prompt": "Miért nem elegendő csak utólag ellenőrizni a teljesítményt?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert az utólagos ellenőrzés soha nem ad információt",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert a hibák egy része már bekövetkezett, ezért a megelőző és folyamat közbeni kontroll is fontos",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert a kontroll nem kapcsolódik célokhoz",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert a teljesítmény nem mérhető",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a hibák egy része már bekövetkezett, ezért a megelőző és folyamat közbeni kontroll is fontos."
+      },
+      {
+        "id": 79,
+        "prompt": "Egy vállalat kívülről vesz fel új vezetőt, hogy friss szemléletet hozzon. Miért lehet ez előnyös a belső előléptetéssel szemben?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert a külső jelölt mindig olcsóbb",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert új tapasztalatokat és nézőpontot hozhat",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert nem kell betanítani",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert biztosan ismeri a belső kultúrát",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert új tapasztalatokat és nézőpontot hozhat."
+      },
+      {
+        "id": 80,
+        "prompt": "Miért nem elég a HRM-et adminisztratív bérszámfejtésként értelmezni?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert a HRM nem foglalkozik munkavállalókkal",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert a HRM stratégiai szerepet is betölt: emberek biztosítása, fejlesztése és teljesítményük támogatása",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert a HRM kizárólag marketingfeladat",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert a bérszámfejtés nem része semmilyen szervezetnek",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a HRM stratégiai szerepet is betölt: emberek biztosítása, fejlesztése és teljesítményük támogatása."
+      },
+      {
+        "id": 81,
+        "prompt": "Egy vállalkozó észreveszi, hogy a piacon van egy kielégítetlen vevői igény, majd erre új szolgáltatást indít. Melyik vállalkozói szerep jelenik meg legerősebben?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Csak adminisztráció",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Lehetőség felismerése és kihasználása",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Kizárólag pénzügyi ellenőrzés",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Szervezeti konfliktus kezelése",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A vállalkozói működés lényege, hogy a piaci lehetőséget üzleti megoldássá alakítja."
+      },
+      {
+        "id": 82,
+        "prompt": "Miért nem tekinthető minden újonnan alapított vállalkozás startupnak?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert startup csak nagyvállalat lehet",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert a startup általában innovatív és gyors növekedésre törekszik",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert a startup nem vállal kockázatot",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert a startup mindig nonprofit szervezet",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a startup általában innovatív és gyors növekedésre törekszik."
+      },
+      {
+        "id": 83,
+        "prompt": "Egy vállalkozás gyorsan növekszik, de nincs stabil bevételi modellje. Miért jelent ez kockázatot?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert a növekedés mindig káros",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert a növekedés önmagában nem garantálja a hosszú távú fenntarthatóságot",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert a bevételi modell csak nagyvállalatoknál fontos",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert a kockázat kizárólag pénzügyi mutatókkal mérhető",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a növekedés önmagában nem garantálja a hosszú távú fenntarthatóságot."
+      },
+      {
+        "id": 84,
+        "prompt": "Miért fontos az üzleti terv egy induló vállalkozásnál?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert teljesen megszünteti a bizonytalanságot",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert segít átgondolni a piacot, erőforrásokat, bevételeket és kockázatokat",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert kiváltja a vezetői döntéseket",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert csak jogi kötelezettség",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert segít átgondolni a piacot, erőforrásokat, bevételeket és kockázatokat."
+      },
+      {
+        "id": 85,
+        "prompt": "Egy vállalkozó saját megtakarításból indít céget, ezért nem kell hitelt felvennie, de lassabban tud növekedni. Mit mutat ez?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "A finanszírozási forma befolyásolja a növekedési lehetőségeket és kockázatot",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "A saját forrás mindig rosszabb, mint az idegen forrás",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "A hitel mindig kockázatmentes",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "A finanszírozás nem hat a működésre",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a leírt helyzet leginkább ehhez a fogalomhoz vagy jelenséghez illeszkedik: A finanszírozási forma befolyásolja a növekedési lehetőségeket és kockázatot."
+      },
+      {
+        "id": 86,
+        "prompt": "Miért nem elég egy vállalkozás sikeréhez az, hogy „jó az ötlet”?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert az ötlet soha nem számít",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert a megvalósítás, piacismeret, finanszírozás és vezetés is szükséges",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert csak a reklám számít",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert a vállalkozásban nincs szükség döntésekre",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a megvalósítás, piacismeret, finanszírozás és vezetés is szükséges."
+      },
+      {
+        "id": 87,
+        "prompt": "Egy magyar cég külföldi piacra lép, de nem veszi figyelembe a helyi fogyasztói szokásokat. Mi lehet ennek következménye?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Automatikus siker",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "A termék vagy kommunikáció nem illeszkedik a helyi piachoz",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Csökken minden kockázat",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Megszűnik a verseny",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert ez fejezi ki legpontosabban a kérdésben szereplő vezetés-szervezési fogalmat: A termék vagy kommunikáció nem illeszkedik a helyi piachoz."
+      },
+      {
+        "id": 88,
+        "prompt": "Miért növeli a globalizáció a vállalatok közötti versenyt?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert kevesebb szereplő jelenik meg a piacon",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert a vállalatok több országból érkező versenytársakkal találkozhatnak",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert a piacok teljesen elszigetelődnek",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert a nemzetközi működés kizárja az árversenyt",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a vállalatok több országból érkező versenytársakkal találkozhatnak."
+      },
+      {
+        "id": 89,
+        "prompt": "Egy vállalat ugyanazt a terméket értékesíti minden országban, változtatás nélkül. Ez melyik megközelítés?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Standardizáció",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "Helyi adaptáció",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Diverzifikáció",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Decentralizált HRM",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Standardizáció esetén a vállalat ugyanazt a terméket vagy megoldást alkalmazza több piacon."
+      },
+      {
+        "id": 90,
+        "prompt": "Mikor lehet előnyösebb a helyi adaptáció a standardizációnál?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Ha minden ország fogyasztói teljesen azonosak",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Ha a kulturális, jogi vagy fogyasztói különbségek erősen befolyásolják a keresletet",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Ha a vállalat nem akar vevői igényeket vizsgálni",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Ha nincs nemzetközi verseny",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert ez fejezi ki legpontosabban a kérdésben szereplő vezetés-szervezési fogalmat: Ha a kulturális, jogi vagy fogyasztói különbségek erősen befolyásolják a keresletet."
+      },
+      {
+        "id": 91,
+        "prompt": "Egy multinacionális vállalat központilag egységesíti a márkát, de a reklámüzeneteket országonként módosítja. Mit próbál egyensúlyozni?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Globális egységességet és helyi alkalmazkodást",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "Csak kényszerítő hatalmat",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Csak pénzügyi kontrollt",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Teljes piacelhagyást",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert ez fejezi ki legpontosabban a kérdésben szereplő vezetés-szervezési fogalmat: Globális egységességet és helyi alkalmazkodást."
+      },
+      {
+        "id": 92,
+        "prompt": "Miért jelenthet kockázatot a nemzetközi működés politikailag instabil országban?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert a politikai környezet soha nem hat az üzletre",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert szabályozási, adózási vagy működési feltételek gyorsan változhatnak",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert a kulturális különbségek mindig előnyösek",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert az export automatikusan veszteséges",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert szabályozási, adózási vagy működési feltételek gyorsan változhatnak."
+      },
+      {
+        "id": 93,
+        "prompt": "Miért nem azonos az innováció a kreativitással?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert a kreativitás mindig káros",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert a kreativitás ötletalkotás, az innováció pedig az ötlet megvalósítása és hasznosítása",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert az innováció csak művészeti fogalom",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert a kreativitás kizárólag technológiai fejlesztés",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a kreativitás ötletalkotás, az innováció pedig az ötlet megvalósítása és hasznosítása."
+      },
+      {
+        "id": 94,
+        "prompt": "Egy cég apró, folyamatos fejlesztésekkel javítja termékét. Ez milyen innováció?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Radikális innováció",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Inkrementális innováció",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Kényszerítő innováció",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Stratégiai kontroll",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "Az inkrementális innováció kis lépésekben, folyamatos fejlesztésekkel javítja a meglévő megoldást."
+      },
+      {
+        "id": 95,
+        "prompt": "Egy új technológia teljesen átalakítja az iparág működését. Ez leginkább:",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "radikális innováció",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "inkrementális innováció",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "egyszerű formalizálás",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "rutin döntés",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A radikális innováció alapvető, iparági vagy működési szintű változást eredményezhet."
+      },
+      {
+        "id": 96,
+        "prompt": "Miért nem igaz, hogy az innováció csak technológiai lehet?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert technológiai innováció nem létezik",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert lehet termék-, folyamat-, szervezeti vagy üzleti modell innováció is",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert innováció csak pénzügyi területen történhet",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert innovációhoz nincs szükség változásra",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert lehet termék-, folyamat-, szervezeti vagy üzleti modell innováció is."
+      },
+      {
+        "id": 97,
+        "prompt": "Egy szervezetben a dolgozók nem mernek új ötleteket mondani, mert a hibákat büntetik. Miért gátolja ez az innovációt?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert az innovációhoz mindig teljes szabálytalanság kell",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert a kreativitáshoz és kísérletezéshez pszichológiai biztonság is szükséges",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert a hibák büntetése mindig növeli az ötletek számát",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert az innováció független a kultúrától",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a kreativitáshoz és kísérletezéshez pszichológiai biztonság is szükséges."
+      },
+      {
+        "id": 98,
+        "prompt": "Egy vállalat új folyamatot vezet be, amellyel ugyanazt a szolgáltatást gyorsabban tudja nyújtani. Ez milyen innováció?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Termékinnováció",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Folyamatinnováció",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Csak marketingkampány",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Csak pénzügyi kontroll",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A fejlesztés itt nem új termékben, hanem a munkafolyamat gyorsabb vagy jobb működésében jelenik meg."
+      },
+      {
+        "id": 99,
+        "prompt": "Miért lehet stratégiai jelentősége az innovációnak?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert mindig azonnal profitot hoz",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert versenyelőnyt teremthet és segíthet alkalmazkodni a változó környezethez",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert megszünteti a kockázatot",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert feleslegessé teszi a vezetést",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert versenyelőnyt teremthet és segíthet alkalmazkodni a változó környezethez."
+      },
+      {
+        "id": 100,
+        "prompt": "Egy vállalat csak rövid távú profitot néz, és figyelmen kívül hagyja a társadalmi hatásokat. Melyik szemlélet hiányzik?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Stakeholder szemlélet",
+            "isCorrect": true
+          },
+          {
+            "label": "b",
+            "text": "Maximin döntés",
+            "isCorrect": false
+          },
+          {
+            "label": "c",
+            "text": "Kritikus út módszer",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "JIT-rendszer",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A stakeholder szemlélet a vállalat döntéseinek több érintettre gyakorolt hatását is figyelembe veszi."
+      },
+      {
+        "id": 101,
+        "prompt": "Miért nem elegendő az üzleti etikát pusztán jogkövetésként értelmezni?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert a jogi szabályokat nem kell betartani",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert lehet valami jogszerű, de erkölcsileg mégis vitatható",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert az etika kizárólag pénzügyi kérdés",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert az üzleti etika nem kapcsolódik döntésekhez",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert lehet valami jogszerű, de erkölcsileg mégis vitatható."
+      },
+      {
+        "id": 102,
+        "prompt": "Egy vállalat környezetbarát kampányt folytat, de közben szennyező gyártási módszereket alkalmaz. Milyen etikai probléma merülhet fel?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Standardizáció",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Greenwashing",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Maximin döntés",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Kettős alárendeltség",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A cég környezetbarát képet mutat magáról, miközben tényleges működése ennek ellentmond."
+      },
+      {
+        "id": 103,
+        "prompt": "Miért fontos a stakeholder szemlélet CSR esetén?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert csak a tulajdonos érdekeit vizsgálja",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert a vállalat döntései több érintettre is hatnak, nem csak a részvényesekre",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert kizárja a társadalmi felelősséget",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert csak pénzügyi mutatókat használ",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a vállalat döntései több érintettre is hatnak, nem csak a részvényesekre."
+      },
+      {
+        "id": 104,
+        "prompt": "Egy vállalat etikai kódexet készít, de a vezetők maguk nem tartják be. Miért gyengíti ez az etikai kultúrát?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert az etikai kódex önmagában mindig elég",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert a vezetői példamutatás hiánya hiteltelenné teszi a szabályokat",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert az etika csak írásos dokumentumokon múlik",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert a dolgozók viselkedését a vezetők soha nem befolyásolják",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a vezetői példamutatás hiánya hiteltelenné teszi a szabályokat."
+      },
+      {
+        "id": 105,
+        "prompt": "Egy beszállító olcsóbb ajánlatot ad, de rossz munkakörülmények között foglalkoztatja dolgozóit. Milyen döntési konfliktus jelenik meg?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Csak logisztikai probléma",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Etikai dilemma a költségelőny és társadalmi felelősség között",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Kizárólag kapacitástervezési kérdés",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Egyszerű adatbázis-probléma",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a leírt helyzet leginkább ehhez a fogalomhoz vagy jelenséghez illeszkedik: Etikai dilemma a költségelőny és társadalmi felelősség között."
+      },
+      {
+        "id": 106,
+        "prompt": "Miért javíthatja hosszú távon a bizalmat az etikus vállalati működés?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert az etika mindig azonnali profitot garantál",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert a kiszámítható és felelős magatartás erősítheti a kapcsolatot vevőkkel, dolgozókkal és partnerekkel",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert az etika megszünteti a versenyt",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert az etika csak reklámeszköz",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a kiszámítható és felelős magatartás erősítheti a kapcsolatot vevőkkel, dolgozókkal és partnerekkel."
+      },
+      {
+        "id": 107,
+        "prompt": "Egy vállalat adományoz, de közben fő tevékenysége jelentős társadalmi károkat okoz. Miért lehet ez problémás CSR szempontból?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert adományozni mindig etikátlan",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert a CSR nem csak különálló jótékonyság, hanem a működés társadalmi hatásainak kezelése is",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert a CSR kizárólag pénzügyi beszámoló",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert a társadalmi hatások nem tartoznak a CSR-hez",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a CSR nem csak különálló jótékonyság, hanem a működés társadalmi hatásainak kezelése is."
+      },
+      {
+        "id": 108,
+        "prompt": "Miért lehet üzletileg is előnyös a társadalmi felelősségvállalás?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert mindig megszünteti a költségeket",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert javíthatja a hírnevet, bizalmat és hosszú távú kapcsolatokat",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert kizárja a versenytársakat",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert csak rövid távú árbevételről szól",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert javíthatja a hírnevet, bizalmat és hosszú távú kapcsolatokat."
+      },
+      {
+        "id": 109,
+        "prompt": "Egy vezető döntése jogilag megengedett, de hátrányosan érinti a dolgozókat és a helyi közösséget. Melyik kérdés lenne etikai szempontból a legfontosabb?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Hogyan lehet teljesen figyelmen kívül hagyni az érintetteket?",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Kikre hat a döntés, és milyen következményekkel jár számukra?",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Hogyan lehet kizárni minden kommunikációt?",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Melyik döntés maximalizálja kizárólag a rövid távú profitot?",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert a leírt helyzet leginkább ehhez a fogalomhoz vagy jelenséghez illeszkedik: Kikre hat a döntés, és milyen következményekkel jár számukra?."
+      },
+      {
+        "id": 110,
+        "prompt": "Miért tekinthető a CSR stratégiai kérdésnek, nem csak PR-tevékenységnek?",
+        "package": "stratégia, struktúra, motiváció, kommunikáció, kultúra, HR",
+        "options": [
+          {
+            "label": "a",
+            "text": "Mert kizárólag reklámszövegekről szól",
+            "isCorrect": false
+          },
+          {
+            "label": "b",
+            "text": "Mert befolyásolja a vállalat hosszú távú működését, érintetti kapcsolatait és legitimációját",
+            "isCorrect": true
+          },
+          {
+            "label": "c",
+            "text": "Mert nincs kapcsolata a szervezeti döntésekkel",
+            "isCorrect": false
+          },
+          {
+            "label": "d",
+            "text": "Mert csak adózási kérdés",
+            "isCorrect": false
+          }
+        ],
+        "explanation": "A helyes válasz azért ez, mert befolyásolja a vállalat hosszú távú működését, érintetti kapcsolatait és legitimációját."
+      }
+    ]
+  },
   "supportingSources": [
     {
       "name": "1-4. hét összefoglaló TK alapján.docx",
