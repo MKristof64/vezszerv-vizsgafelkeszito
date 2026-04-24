@@ -9,6 +9,8 @@ $ErrorActionPreference = "Stop"
 
 $root = Split-Path -Parent $PSScriptRoot
 $outputDir = Join-Path $root "output"
+$siteDir = Join-Path $root "site"
+$siteOutputDir = Join-Path $siteDir "output"
 $topicsPath = Join-Path $outputDir "topics.generated.json"
 $htmlPath = Join-Path $outputDir "vezszerv-tanuloapp.html"
 $ocrPath = Join-Path $outputDir "book-ocr-smoke.json"
@@ -66,10 +68,25 @@ if ($LASTEXITCODE -ne 0) {
     throw "A build_html_app.py futtatása sikertelen volt."
 }
 
+New-Item -ItemType Directory -Force -Path $siteOutputDir | Out-Null
+Copy-Item -LiteralPath $htmlPath -Destination (Join-Path $siteOutputDir "vezszerv-tanuloapp.html") -Force
+Copy-Item -LiteralPath $topicsPath -Destination (Join-Path $siteOutputDir "topics.generated.json") -Force
+
+$rootIndex = Join-Path $root "index.html"
+if (Test-Path -LiteralPath $rootIndex) {
+    Copy-Item -LiteralPath $rootIndex -Destination (Join-Path $siteDir "index.html") -Force
+}
+
+$noJekyll = Join-Path $root ".nojekyll"
+if (Test-Path -LiteralPath $noJekyll) {
+    Copy-Item -LiteralPath $noJekyll -Destination (Join-Path $siteDir ".nojekyll") -Force
+}
+
 Write-Host ""
 Write-Host "Kész:"
 Write-Host " - Témaköri JSON: $topicsPath"
 Write-Host " - HTML app:      $htmlPath"
+Write-Host " - Pages site:    $siteDir"
 if (Test-Path -LiteralPath $ocrPath) {
     Write-Host " - OCR JSON:      $ocrPath"
 }
