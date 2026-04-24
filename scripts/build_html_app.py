@@ -1917,8 +1917,7 @@ def build_html(payload: dict) -> str:
     function configureBookLink() {
       const localUrl = payload.bookUrl || "";
       const shareUrl = payload.bookShareUrl || "";
-      const isLocalContext = window.location.protocol === "file:";
-      const resolvedUrl = isLocalContext && localUrl ? localUrl : shareUrl;
+      const resolvedUrl = shareUrl || localUrl;
 
       bookLink.classList.remove("is-disabled", "is-local");
       bookLink.removeAttribute("aria-disabled");
@@ -1928,11 +1927,11 @@ def build_html(payload: dict) -> str:
         bookLink.href = resolvedUrl;
         bookLink.target = "_blank";
         bookLink.rel = "noopener noreferrer";
-        if (isLocalContext && localUrl) {
+        if (resolvedUrl === localUrl && localUrl) {
           bookLink.title = "Könyv PDF megnyitása a helyi gépen";
           bookLink.classList.add("is-local");
         } else {
-          bookLink.title = "A könyv hivatalos online oldalának megnyitása";
+          bookLink.title = "A megosztott könyvlink megnyitása";
         }
         return;
       }

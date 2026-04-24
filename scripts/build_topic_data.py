@@ -15,7 +15,7 @@ from pypdf import PdfReader
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SOURCE_DIR = Path(r"C:\Users\krist\OneDrive\Dokumentumok\vezsz")
-DEFAULT_BOOK_SHARE_URL = "https://mersz.hu/kiadvany/147/"
+DEFAULT_BOOK_SHARE_URL = "https://drive.google.com/file/d/1cC-NUZNfSSAXnG1GuAZQf6e0IKz4WLdF/view?usp=sharing"
 DEFAULT_TEST_BANK_NAME = "vezsz_megertes_kerdesek_indoklassal.docx"
 QUIZ_SELECTION_COUNT = 15
 
