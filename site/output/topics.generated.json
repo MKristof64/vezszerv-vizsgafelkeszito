@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-04-24T12:25:49.666920+00:00",
+  "generatedAt": "2026-04-24T12:34:36.338018+00:00",
   "sourceFolder": "C:\\Users\\krist\\OneDrive\\Dokumentumok\\vezsz",
   "ocrPath": "C:\\Users\\krist\\Documents\\Codex\\2026-04-23-files-mentioned-by-the-user-vezszerv\\output\\book-ocr-smoke.json",
   "bookPath": "C:\\Users\\krist\\OneDrive\\Dokumentumok\\vezsz\\VezSzerv Teljes KönyvA.pdf",
   "bookUrl": "file:///C:/Users/krist/OneDrive/Dokumentumok/vezsz/VezSzerv%20Teljes%20K%C3%B6nyvA.pdf",
-  "bookShareUrl": null,
+  "bookShareUrl": "https://mersz.hu/kiadvany/147/",
   "supportingSources": [
     {
       "name": "1-4. hét összefoglaló TK alapján.docx",

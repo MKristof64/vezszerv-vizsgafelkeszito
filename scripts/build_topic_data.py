@@ -15,6 +15,7 @@ from pypdf import PdfReader
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SOURCE_DIR = Path(r"C:\Users\krist\OneDrive\Dokumentumok\vezsz")
+DEFAULT_BOOK_SHARE_URL = "https://mersz.hu/kiadvany/147/"
 
 TOPIC_STUDY_GUIDES = {
     "szervezet-vezetes-hatekonysag-eredmenyesseg": {
@@ -490,6 +491,9 @@ def resolve_shareable_book_url(book_path: Path | None) -> str | None:
     env_url = normalize_text(os.environ.get("VEZSZERV_BOOK_SHARE_URL", ""))
     if env_url.startswith("http://") or env_url.startswith("https://"):
         return env_url
+
+    if book_path and book_path.name.startswith("VezSzerv Teljes"):
+        return DEFAULT_BOOK_SHARE_URL
 
     if not book_path:
         return None
