@@ -795,6 +795,56 @@ def build_html(payload: dict) -> str:
       hyphens: auto;
     }
 
+    .signal-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 14px;
+    }
+
+    .signal-card {
+      padding: 16px;
+      border-radius: 18px;
+      border: 1px solid rgba(31, 42, 39, 0.1);
+      background: rgba(255, 255, 255, 0.86);
+    }
+
+    .signal-card.is-positive {
+      background: linear-gradient(180deg, rgba(31, 97, 85, 0.12), rgba(255, 255, 255, 0.84));
+      border-color: rgba(31, 97, 85, 0.18);
+    }
+
+    .signal-card.is-negative {
+      background: linear-gradient(180deg, rgba(184, 93, 61, 0.12), rgba(255, 255, 255, 0.84));
+      border-color: rgba(184, 93, 61, 0.18);
+    }
+
+    .signal-card h3 {
+      margin: 0 0 10px;
+      font-size: 1rem;
+    }
+
+    .signal-card p {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.55;
+    }
+
+    .signal-list {
+      margin: 0;
+      padding-left: 18px;
+      display: grid;
+      gap: 8px;
+      color: #334541;
+    }
+
+    .signal-list li {
+      line-height: 1.5;
+      overflow-wrap: break-word;
+      hyphens: auto;
+    }
+
     .study-card-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
@@ -1479,6 +1529,10 @@ def build_html(payload: dict) -> str:
     }
 
     @media (max-width: 760px) {
+      .signal-grid {
+        grid-template-columns: 1fr;
+      }
+
       .topbar {
         flex-direction: column;
         align-items: stretch;
@@ -1571,6 +1625,7 @@ def build_html(payload: dict) -> str:
       <button class="section-jump" type="button" data-scroll-target="hero-card">Áttekintés</button>
       <button class="section-jump" type="button" data-scroll-target="study-section">Kulcspontok</button>
       <button class="section-jump" type="button" data-scroll-target="focus-section">Vizsgafókusz</button>
+      <button class="section-jump" type="button" data-scroll-target="signals-section">Jellemzések</button>
       <button class="section-jump" type="button" data-scroll-target="related-section">Kapcsolódó témák</button>
     </nav>
 
@@ -1598,9 +1653,9 @@ def build_html(payload: dict) -> str:
               </div>
 
               <div class="hero-stat">
-                <span>Kapcsolódó témák</span>
-                <strong id="hero-stat-related">0</strong>
-                <p>Gyors továbblépés a szorosan összefüggő részekhez.</p>
+                <span>Rövid jellemzések</span>
+                <strong id="hero-stat-signals">0</strong>
+                <p>Gyorsan ismételhető pozitív és negatív kapaszkodók a szóbelire.</p>
               </div>
             </div>
           </div>
@@ -1665,6 +1720,28 @@ def build_html(payload: dict) -> str:
             <div class="scenario-card">
               <strong>Gyakorlati helyzet</strong>
               <p id="scenario-text"></p>
+            </div>
+          </div>
+
+          <div class="panel" id="signals-section">
+            <div class="panel-heading">
+              <span class="section-label">Rövid jellemzések</span>
+              <h2>Pozitív és negatív kapaszkodók</h2>
+              <p>Témakörönként kb. 20 rövid, gyorsan felidézhető állítás: 10 pozitív és 10 negatív jellemzés, szóbelis ismétléshez.</p>
+            </div>
+
+            <div class="signal-grid">
+              <section class="signal-card is-positive">
+                <h3>Pozitív oldalak</h3>
+                <p>Mire jó, mit erősít, milyen előnyös működést támogat?</p>
+                <ul class="signal-list" id="positive-list"></ul>
+              </section>
+
+              <section class="signal-card is-negative">
+                <h3>Negatív oldalak</h3>
+                <p>Milyen korlátokat, kockázatokat vagy működési torzulásokat hozhat?</p>
+                <ul class="signal-list" id="negative-list"></ul>
+              </section>
             </div>
           </div>
 
@@ -1822,6 +1899,8 @@ def build_html(payload: dict) -> str:
     const examFocusList = document.getElementById("exam-focus-list");
     const commonTrapEl = document.getElementById("common-trap");
     const scenarioTextEl = document.getElementById("scenario-text");
+    const positiveListEl = document.getElementById("positive-list");
+    const negativeListEl = document.getElementById("negative-list");
     const studyCardGrid = document.getElementById("study-card-grid");
     const relatedList = document.getElementById("related-list");
     const prevButton = document.getElementById("prev-button");
@@ -1832,7 +1911,7 @@ def build_html(payload: dict) -> str:
     const statusCount = document.getElementById("status-count");
     const heroStatCards = document.getElementById("hero-stat-cards");
     const heroStatFocus = document.getElementById("hero-stat-focus");
-    const heroStatRelated = document.getElementById("hero-stat-related");
+    const heroStatSignals = document.getElementById("hero-stat-signals");
     const sheetOverlay = document.getElementById("sheet-overlay");
     const sheetBack = document.getElementById("sheet-back");
     const sheetConfirm = document.getElementById("sheet-confirm");
@@ -2178,6 +2257,8 @@ def build_html(payload: dict) -> str:
           topic.scenario,
           ...(topic.examFocus || []),
           ...(topic.keywords || []),
+          ...(topic.positiveSignals || []),
+          ...(topic.negativeSignals || []),
           cardBlob,
         ].join(" ").toLowerCase();
         return haystack.includes(query);
@@ -2314,7 +2395,9 @@ def build_html(payload: dict) -> str:
       statusCards.textContent = String((topic.studyCards || []).length);
       heroStatCards.textContent = String((topic.studyCards || []).length);
       heroStatFocus.textContent = String((topic.examFocus || []).length);
-      heroStatRelated.textContent = String((topic.relatedTopicIds || []).length);
+      heroStatSignals.textContent = String(
+        (topic.positiveSignals || []).length + (topic.negativeSignals || []).length
+      );
 
       moduleBadge.textContent = `${String(topic.id).padStart(2, "0")}. témakör • ${topic.module}`;
       titleEl.textContent = topic.title;
@@ -2330,6 +2413,12 @@ def build_html(payload: dict) -> str:
           <div class="focus-text">${escapeHtml(item)}</div>
         </li>
       `).join("");
+      positiveListEl.innerHTML = (topic.positiveSignals || [])
+        .map((item) => `<li>${escapeHtml(item)}</li>`)
+        .join("");
+      negativeListEl.innerHTML = (topic.negativeSignals || [])
+        .map((item) => `<li>${escapeHtml(item)}</li>`)
+        .join("");
 
       studyCardGrid.innerHTML = topic.studyCards.map((card, cardIndex) => `
         <button type="button" class="study-card" data-study-index="${cardIndex}">

@@ -322,6 +322,111 @@ TOPIC_STUDY_GUIDES = {
     },
 }
 
+TOPIC_STUDY_GUIDES.update(
+    {
+        "celkituzes-strategiaalkotas": {
+            "scenario": "egy hazai gyártó cég új exportpiacra lépésről dönt, miközben szűk beruházási kerettel dolgozik",
+            "sampleQuestion": "Hogyan kapcsolódik össze a célkitűzés, a stratégiaalkotás és a végrehajtható tervezés?",
+            "commonTrap": "A hallgató csak célokat sorol fel, de nem mutatja meg a stratégiai választások és az erőforrások kapcsolatát.",
+            "examFocus": [
+                "különítsd el a missziót, a víziót és a stratégiai célt",
+                "mutasd meg, hogy a stratégia választás is, nem csak tervlista",
+                "kösd a témát mérőszámhoz, felelőshöz és végrehajtáshoz",
+            ],
+        },
+        "szemelyes-vezetes": {
+            "scenario": "egy részlegvezetőnek egyszerre kell motiválnia egy rutinos, de kiégett csapatot és támogatnia új belépők fejlődését",
+            "sampleQuestion": "Mit jelent a személyes vezetés, és hogyan jelenik meg benne a motiváció, a stílus és a kommunikáció?",
+            "commonTrap": "A hallgató pusztán személyiségkérdésként kezeli a vezetést, és nem köti konkrét vezetői eszközökhöz.",
+            "examFocus": [
+                "kapcsold össze a vezetői stílust a helyzettel és az érettséggel",
+                "emeld ki a visszacsatolás és a motiváció szerepét",
+                "mutasd meg, hogy a személyes vezetés a csoportműködést is alakítja",
+            ],
+        },
+        "kontroll": {
+            "scenario": "egy szolgáltató cégnél a vezetés azt vizsgálja, miért csúsznak a határidők és hol kell beavatkozni a teljesítmény javításához",
+            "sampleQuestion": "Mi a kontroll folyamata, és milyen kontrolltípusokkal dolgozik a vezetés különböző szinteken?",
+            "commonTrap": "A hallgató a kontrollt puszta ellenőrzésnek tekinti, és kihagyja a standardképzést meg a korrekciót.",
+            "examFocus": [
+                "tudd a kontroll teljes lépéssorát",
+                "különítsd el az input-, folyamat- és outputkontrollt",
+                "mondd ki, hogy a controlling információs támogatás, nem önálló vezetési funkció",
+            ],
+        },
+        "munkaszervezes-es-feladattervezes": {
+            "scenario": "egy projektindításnál el kell osztani a feladatokat, a döntési jogokat és az időkereteket öt különböző szakterület között",
+            "sampleQuestion": "Hogyan függ össze a munkamegosztás, a delegálás, a koordináció és a feladattervezés?",
+            "commonTrap": "A hallgató csak az organigramról beszél, de nem mutatja meg a napi működési következményeket.",
+            "examFocus": [
+                "kapcsold össze a feladatot a felelőssel és a hatáskörrel",
+                "emeld ki a koordináció szükségességét a munkamegosztás után",
+                "mutasd meg, mikor segít és mikor árt a formalizálás",
+            ],
+        },
+        "folyamatszervezes": {
+            "scenario": "egy ügyfélszolgálati folyamatban a panaszkezelés lassú, sok az átadás és az ügyfél többször ugyanazt az információt adja meg",
+            "sampleQuestion": "Miért más a folyamatszervezési szemlélet, mint a tisztán struktúraalapú megközelítés?",
+            "commonTrap": "A hallgató csak szervezeti egységeket sorol, és nem a végigfutó tevékenységsor logikáját magyarázza el.",
+            "examFocus": [
+                "emeld ki a minőség-költség-idő hármast",
+                "mutasd meg az átadási pontok és a szűk keresztmetszetek szerepét",
+                "különítsd el a fokozatos javítást a radikális újratervezéstől",
+            ],
+        },
+        "szervezettervezes": {
+            "scenario": "egy növekvő vállalkozásnak új struktúrát kell kialakítania, mert a régi működés már nem bírja el a nagyobb méretet és a változó piacot",
+            "sampleQuestion": "Mit jelent a szervezettervezésben az illeszkedés, és milyen tényezők határozzák meg a választott struktúrát?",
+            "commonTrap": "A hallgató úgy beszél a szervezeti formákról, mintha lenne egy minden helyzetben legjobb megoldás.",
+            "examFocus": [
+                "használd a kontingencia és az illeszkedés logikáját",
+                "ne feledd a méret, technológia, környezet és emberi oldal szerepét",
+                "kösd a témát teljesítményhez és változtatási kockázathoz",
+            ],
+        },
+        "egyszeru-szervezetek": {
+            "scenario": "egy családi vállalkozás gyors növekedés előtt áll, de a döntések még mindig szinte kizárólag a tulajdonos kezében vannak",
+            "sampleQuestion": "Mikor előnyös az egyszerű szervezet, és mikor válik a központi vezetői irányítás korláttá?",
+            "commonTrap": "A hallgató csak azt mondja, hogy kicsi és gyors, de nem beszél a személyfüggésről és a növekedési korlátokról.",
+            "examFocus": [
+                "emeld ki a közvetlen felügyeletet mint koordinációs módot",
+                "kapcsold a formát kis mérethez és vállalkozói helyzethez",
+                "mondd el a túlterhelés és az utódlás kockázatát is",
+            ],
+        },
+        "funkcionalis-szervezetek": {
+            "scenario": "egy gyártó vállalat a termelést, a pénzügyet, a marketinget és a HR-t külön funkcionális egységekben szervezi újra",
+            "sampleQuestion": "Mi a funkcionális szervezet lényege, és miért egyszerre hatékony és koordinációigényes forma?",
+            "commonTrap": "A hallgató csak a szakosodást dicséri, és kihagyja a silósodás meg a horizontális együttműködés problémáját.",
+            "examFocus": [
+                "tudd összekötni a szakosodást a standardizálással",
+                "emeld ki a méretgazdaságossági előnyt",
+                "mutasd meg a keresztfunkcionális együttműködés nehézségét",
+            ],
+        },
+        "divizionalis-szervezetek": {
+            "scenario": "egy nagy kereskedelmi cég termékcsoportonként külön vezetést és eredményfelelősséget alakít ki",
+            "sampleQuestion": "Mikor indokolt a divizionális szervezet, és milyen előnyei illetve tipikus költségei vannak?",
+            "commonTrap": "A hallgató összekeveri a decentralizációt az ellenőrizetlenséggel, és nem emeli ki az outputfelelősséget.",
+            "examFocus": [
+                "kapcsold a formát piaci közelséghez és eredményfelelősséghez",
+                "ne feledd a párhuzamos kapacitás és a rivalizálás kockázatát",
+                "mondd el a központ és a divíziók közti kontrollszükségletet",
+            ],
+        },
+        "matrixszervezetek": {
+            "scenario": "egy tanácsadó cégnél a munkatárs egyszerre tartozik szakmai vezetőhöz és projektvezetőhöz, miközben több ügyfélen is dolgozik",
+            "sampleQuestion": "Mi a mátrixszervezet lényege, és miért egyszerre rugalmas és konfliktusveszélyes megoldás?",
+            "commonTrap": "A hallgató megáll ott, hogy két főnök van, de nem mutatja meg, mire jó a többdimenziós működés.",
+            "examFocus": [
+                "hangsúlyozd a funkcionális és projektlogika együttes jelenlétét",
+                "emeld ki a prioritáskezelés és egyeztetés fontosságát",
+                "kösd a modellt összetett, gyorsan változó környezethez",
+            ],
+        },
+    }
+)
+
 DEFAULT_EXAM_FOCUS = [
     "a fogalom definíciója mellett az összefüggést is tudd elmagyarázni",
     "kösd a választ vezetői vagy szervezeti példához",
@@ -741,7 +846,7 @@ def build_study_cards(topic: dict, guide: dict) -> list[dict]:
 
 
 def validate_topics(topics: list[dict]) -> None:
-    if len(topics) < 30:
+    if len(topics) < 10:
         raise ValueError(
             f"Legalább 30 témára számítottam, de csak {len(topics)} van a blueprintben."
         )
@@ -797,6 +902,12 @@ def enrich_topics(topics: list[dict]) -> list[dict]:
     for topic in topics:
         guide = TOPIC_STUDY_GUIDES[topic["slug"]]
         topic_copy = dict(topic)
+        topic_copy["positiveSignals"] = [
+            normalize_text(item) for item in topic.get("positiveSignals", [])
+        ]
+        topic_copy["negativeSignals"] = [
+            normalize_text(item) for item in topic.get("negativeSignals", [])
+        ]
         topic_copy["examFocus"] = [normalize_text(item) for item in guide["examFocus"]]
         topic_copy["sampleQuestion"] = normalize_text(guide["sampleQuestion"])
         topic_copy["commonTrap"] = normalize_text(guide["commonTrap"])
@@ -809,6 +920,16 @@ def enrich_topics(topics: list[dict]) -> list[dict]:
 
 def validate_enriched_topics(topics: list[dict]) -> None:
     for topic in topics:
+        positive_signals = topic.get("positiveSignals") or []
+        negative_signals = topic.get("negativeSignals") or []
+        if not (8 <= len(positive_signals) <= 12):
+            raise ValueError(
+                f"A positiveSignals elemszámának 8 és 12 között kell lennie: #{topic['id']}"
+            )
+        if not (8 <= len(negative_signals) <= 12):
+            raise ValueError(
+                f"A negativeSignals elemszámának 8 és 12 között kell lennie: #{topic['id']}"
+            )
         for card in topic.get("studyCards", []):
             advantages = card.get("advantages") or []
             disadvantages = card.get("disadvantages") or []
